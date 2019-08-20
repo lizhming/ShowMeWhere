@@ -1,0 +1,2068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		00E356F31AD99517003FC87E /* SMW_ChildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SMW_ChildTests.m */; };
+		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		BB132B861CA406D800F893D3 /* AG Book Rounded Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB132B851CA406D700F893D3 /* AG Book Rounded Regular.otf */; };
+		BB50F7971D13E9D700F71760 /* arabicache.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7631D13E9D700F71760 /* arabicache.mp3 */; };
+		BB50F7981D13E9D700F71760 /* arabicback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7641D13E9D700F71760 /* arabicback.mp3 */; };
+		BB50F7991D13E9D700F71760 /* arabicbadtaste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7651D13E9D700F71760 /* arabicbadtaste.mp3 */; };
+		BB50F79A1D13E9D700F71760 /* arabicbottom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7661D13E9D700F71760 /* arabicbottom.mp3 */; };
+		BB50F79B1D13E9D700F71760 /* arabicboysprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7671D13E9D700F71760 /* arabicboysprivates.mp3 */; };
+		BB50F79C1D13E9D700F71760 /* arabicbreast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7681D13E9D700F71760 /* arabicbreast.mp3 */; };
+		BB50F79D1D13E9D700F71760 /* arabiccannotfeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7691D13E9D700F71760 /* arabiccannotfeel.mp3 */; };
+		BB50F79E1D13E9D700F71760 /* arabicchest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F76A1D13E9D700F71760 /* arabicchest.mp3 */; };
+		BB50F79F1D13E9D700F71760 /* arabiccold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F76B1D13E9D700F71760 /* arabiccold.mp3 */; };
+		BB50F7A01D13E9D700F71760 /* arabiccramps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F76C1D13E9D700F71760 /* arabiccramps.mp3 */; };
+		BB50F7A11D13E9D700F71760 /* arabicdizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F76D1D13E9D700F71760 /* arabicdizzy.mp3 */; };
+		BB50F7A21D13E9D700F71760 /* arabicdrowsy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F76E1D13E9D700F71760 /* arabicdrowsy.mp3 */; };
+		BB50F7A31D13E9D700F71760 /* arabicear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F76F1D13E9D700F71760 /* arabicear.mp3 */; };
+		BB50F7A41D13E9D700F71760 /* arabicelbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7701D13E9D700F71760 /* arabicelbow.mp3 */; };
+		BB50F7A51D13E9D700F71760 /* arabiceyeproblems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7711D13E9D700F71760 /* arabiceyeproblems.mp3 */; };
+		BB50F7A61D13E9D700F71760 /* arabiceyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7721D13E9D700F71760 /* arabiceyes.mp3 */; };
+		BB50F7A71D13E9D700F71760 /* arabicfaint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7731D13E9D700F71760 /* arabicfaint.mp3 */; };
+		BB50F7A81D13E9D700F71760 /* arabicfemalegenitals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7741D13E9D700F71760 /* arabicfemalegenitals.mp3 */; };
+		BB50F7A91D13E9D700F71760 /* arabicfingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7751D13E9D700F71760 /* arabicfingers.mp3 */; };
+		BB50F7AA1D13E9D700F71760 /* arabicfront.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7761D13E9D700F71760 /* arabicfront.mp3 */; };
+		BB50F7AB1D13E9D700F71760 /* arabicgirlsprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7771D13E9D700F71760 /* arabicgirlsprivates.mp3 */; };
+		BB50F7AC1D13E9D700F71760 /* arabicgreeting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7781D13E9D700F71760 /* arabicgreeting.mp3 */; };
+		BB50F7AD1D13E9D700F71760 /* arabicgroin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7791D13E9D700F71760 /* arabicgroin.mp3 */; };
+		BB50F7AE1D13E9D700F71760 /* arabichand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F77A1D13E9D700F71760 /* arabichand.mp3 */; };
+		BB50F7AF1D13E9D700F71760 /* arabichead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F77B1D13E9D700F71760 /* arabichead.mp3 */; };
+		BB50F7B01D13E9D700F71760 /* arabicheart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F77C1D13E9D700F71760 /* arabicheart.mp3 */; };
+		BB50F7B11D13E9D700F71760 /* arabichot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F77D1D13E9D700F71760 /* arabichot.mp3 */; };
+		BB50F7B21D13E9D700F71760 /* arabichowyoufeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F77E1D13E9D700F71760 /* arabichowyoufeel.mp3 */; };
+		BB50F7B31D13E9D700F71760 /* arabicinpain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F77F1D13E9D700F71760 /* arabicinpain.mp3 */; };
+		BB50F7B41D13E9D700F71760 /* arabicitchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7801D13E9D700F71760 /* arabicitchy.mp3 */; };
+		BB50F7B51D13E9D700F71760 /* arabicknee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7811D13E9D700F71760 /* arabicknee.mp3 */; };
+		BB50F7B61D13E9D700F71760 /* arabiclanguage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7821D13E9D700F71760 /* arabiclanguage.mp3 */; };
+		BB50F7B71D13E9D700F71760 /* arabiclowerarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7831D13E9D700F71760 /* arabiclowerarm.mp3 */; };
+		BB50F7B81D13E9D700F71760 /* arabiclowerleg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7841D13E9D700F71760 /* arabiclowerleg.mp3 */; };
+		BB50F7B91D13E9D700F71760 /* arabicmouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7851D13E9D700F71760 /* arabicmouth.mp3 */; };
+		BB50F7BA1D13E9D700F71760 /* arabicneck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7861D13E9D700F71760 /* arabicneck.mp3 */; };
+		BB50F7BB1D13E9D700F71760 /* arabicno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7871D13E9D700F71760 /* arabicno.mp3 */; };
+		BB50F7BC1D13E9D700F71760 /* arabicnose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7881D13E9D700F71760 /* arabicnose.mp3 */; };
+		BB50F7BD1D13E9D700F71760 /* arabicnumb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7891D13E9D700F71760 /* arabicnumb.mp3 */; };
+		BB50F7BE1D13E9D700F71760 /* arabicpenis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F78A1D13E9D700F71760 /* arabicpenis.mp3 */; };
+		BB50F7BF1D13E9D700F71760 /* arabicpinsneedles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F78B1D13E9D700F71760 /* arabicpinsneedles.mp3 */; };
+		BB50F7C01D13E9D700F71760 /* arabicplaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F78C1D13E9D700F71760 /* arabicplaster.mp3 */; };
+		BB50F7C11D13E9D700F71760 /* arabicribs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F78D1D13E9D700F71760 /* arabicribs.mp3 */; };
+		BB50F7C21D13E9D700F71760 /* arabicshoulder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F78E1D13E9D700F71760 /* arabicshoulder.mp3 */; };
+		BB50F7C31D13E9D700F71760 /* arabicshowmewhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F78F1D13E9D700F71760 /* arabicshowmewhere.mp3 */; };
+		BB50F7C41D13E9D700F71760 /* arabicsick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7901D13E9D700F71760 /* arabicsick.mp3 */; };
+		BB50F7C51D13E9D700F71760 /* arabictesticles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7911D13E9D700F71760 /* arabictesticles.mp3 */; };
+		BB50F7C61D13E9D700F71760 /* arabicthigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7921D13E9D700F71760 /* arabicthigh.mp3 */; };
+		BB50F7C71D13E9D700F71760 /* arabictingling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7931D13E9D700F71760 /* arabictingling.mp3 */; };
+		BB50F7C81D13E9D700F71760 /* arabictoes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7941D13E9D700F71760 /* arabictoes.mp3 */; };
+		BB50F7C91D13E9D700F71760 /* arabictummy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7951D13E9D700F71760 /* arabictummy.mp3 */; };
+		BB50F7CA1D13E9D700F71760 /* arabicyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7961D13E9D700F71760 /* arabicyes.mp3 */; };
+		BB50F7FE1D13E9E200F71760 /* bengaliache.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7CB1D13E9E200F71760 /* bengaliache.mp3 */; };
+		BB50F7FF1D13E9E200F71760 /* bengaliback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7CC1D13E9E200F71760 /* bengaliback.mp3 */; };
+		BB50F8001D13E9E200F71760 /* bengalibadtaste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7CD1D13E9E200F71760 /* bengalibadtaste.mp3 */; };
+		BB50F8011D13E9E200F71760 /* bengalibottom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7CE1D13E9E200F71760 /* bengalibottom.mp3 */; };
+		BB50F8021D13E9E200F71760 /* bengaliboysprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7CF1D13E9E200F71760 /* bengaliboysprivates.mp3 */; };
+		BB50F8031D13E9E200F71760 /* bengalibreast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D01D13E9E200F71760 /* bengalibreast.mp3 */; };
+		BB50F8041D13E9E200F71760 /* bengalicannotfeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D11D13E9E200F71760 /* bengalicannotfeel.mp3 */; };
+		BB50F8051D13E9E200F71760 /* bengalichest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D21D13E9E200F71760 /* bengalichest.mp3 */; };
+		BB50F8061D13E9E200F71760 /* bengalicold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D31D13E9E200F71760 /* bengalicold.mp3 */; };
+		BB50F8071D13E9E200F71760 /* bengalicramps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D41D13E9E200F71760 /* bengalicramps.mp3 */; };
+		BB50F8081D13E9E200F71760 /* bengalidizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D51D13E9E200F71760 /* bengalidizzy.mp3 */; };
+		BB50F8091D13E9E200F71760 /* bengalidrowsy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D61D13E9E200F71760 /* bengalidrowsy.mp3 */; };
+		BB50F80A1D13E9E200F71760 /* bengaliear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D71D13E9E200F71760 /* bengaliear.mp3 */; };
+		BB50F80B1D13E9E200F71760 /* bengalielbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D81D13E9E200F71760 /* bengalielbow.mp3 */; };
+		BB50F80C1D13E9E200F71760 /* bengalieyeproblems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7D91D13E9E200F71760 /* bengalieyeproblems.mp3 */; };
+		BB50F80D1D13E9E200F71760 /* bengalieyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7DA1D13E9E200F71760 /* bengalieyes.mp3 */; };
+		BB50F80E1D13E9E200F71760 /* bengalifaint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7DB1D13E9E200F71760 /* bengalifaint.mp3 */; };
+		BB50F80F1D13E9E200F71760 /* bengalifemalegenitals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7DC1D13E9E200F71760 /* bengalifemalegenitals.mp3 */; };
+		BB50F8101D13E9E200F71760 /* bengalifingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7DD1D13E9E200F71760 /* bengalifingers.mp3 */; };
+		BB50F8111D13E9E200F71760 /* bengaligirlsprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7DE1D13E9E200F71760 /* bengaligirlsprivates.mp3 */; };
+		BB50F8121D13E9E200F71760 /* bengaligreeting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7DF1D13E9E200F71760 /* bengaligreeting.mp3 */; };
+		BB50F8131D13E9E200F71760 /* bengaligroin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E01D13E9E200F71760 /* bengaligroin.mp3 */; };
+		BB50F8141D13E9E200F71760 /* bengalihand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E11D13E9E200F71760 /* bengalihand.mp3 */; };
+		BB50F8151D13E9E200F71760 /* bengalihead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E21D13E9E200F71760 /* bengalihead.mp3 */; };
+		BB50F8161D13E9E200F71760 /* bengaliheart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E31D13E9E200F71760 /* bengaliheart.mp3 */; };
+		BB50F8171D13E9E200F71760 /* bengalihot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E41D13E9E200F71760 /* bengalihot.mp3 */; };
+		BB50F8181D13E9E200F71760 /* bengalihowyoufeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E51D13E9E200F71760 /* bengalihowyoufeel.mp3 */; };
+		BB50F8191D13E9E200F71760 /* bengaliinpain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E61D13E9E200F71760 /* bengaliinpain.mp3 */; };
+		BB50F81A1D13E9E200F71760 /* bengaliitchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E71D13E9E200F71760 /* bengaliitchy.mp3 */; };
+		BB50F81B1D13E9E200F71760 /* bengaliknee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E81D13E9E200F71760 /* bengaliknee.mp3 */; };
+		BB50F81C1D13E9E200F71760 /* bengalilanguage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7E91D13E9E200F71760 /* bengalilanguage.mp3 */; };
+		BB50F81D1D13E9E200F71760 /* bengalilowerarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7EA1D13E9E200F71760 /* bengalilowerarm.mp3 */; };
+		BB50F81E1D13E9E200F71760 /* bengalilowerleg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7EB1D13E9E200F71760 /* bengalilowerleg.mp3 */; };
+		BB50F81F1D13E9E200F71760 /* bengalimouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7EC1D13E9E200F71760 /* bengalimouth.mp3 */; };
+		BB50F8201D13E9E200F71760 /* bengalineck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7ED1D13E9E200F71760 /* bengalineck.mp3 */; };
+		BB50F8211D13E9E200F71760 /* bengalino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7EE1D13E9E200F71760 /* bengalino.mp3 */; };
+		BB50F8221D13E9E200F71760 /* bengalinose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7EF1D13E9E200F71760 /* bengalinose.mp3 */; };
+		BB50F8231D13E9E200F71760 /* bengalinumb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F01D13E9E200F71760 /* bengalinumb.mp3 */; };
+		BB50F8241D13E9E200F71760 /* bengalipenis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F11D13E9E200F71760 /* bengalipenis.mp3 */; };
+		BB50F8251D13E9E200F71760 /* bengalipinsneedles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F21D13E9E200F71760 /* bengalipinsneedles.mp3 */; };
+		BB50F8261D13E9E200F71760 /* bengaliplaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F31D13E9E200F71760 /* bengaliplaster.mp3 */; };
+		BB50F8271D13E9E200F71760 /* bengaliribs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F41D13E9E200F71760 /* bengaliribs.mp3 */; };
+		BB50F8281D13E9E200F71760 /* bengalishoulder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F51D13E9E200F71760 /* bengalishoulder.mp3 */; };
+		BB50F8291D13E9E200F71760 /* bengalishowmewhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F61D13E9E200F71760 /* bengalishowmewhere.mp3 */; };
+		BB50F82A1D13E9E200F71760 /* bengalisick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F71D13E9E200F71760 /* bengalisick.mp3 */; };
+		BB50F82B1D13E9E200F71760 /* bengalitesticles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F81D13E9E200F71760 /* bengalitesticles.mp3 */; };
+		BB50F82C1D13E9E200F71760 /* bengalithigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7F91D13E9E200F71760 /* bengalithigh.mp3 */; };
+		BB50F82D1D13E9E200F71760 /* bengalitingling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7FA1D13E9E200F71760 /* bengalitingling.mp3 */; };
+		BB50F82E1D13E9E200F71760 /* bengalitoes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7FB1D13E9E200F71760 /* bengalitoes.mp3 */; };
+		BB50F82F1D13E9E200F71760 /* bengalitummy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7FC1D13E9E200F71760 /* bengalitummy.mp3 */; };
+		BB50F8301D13E9E200F71760 /* bengaliyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F7FD1D13E9E200F71760 /* bengaliyes.mp3 */; };
+		BB50F8631D13E9EE00F71760 /* polishache.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8311D13E9EE00F71760 /* polishache.mp3 */; };
+		BB50F8641D13E9EE00F71760 /* polishback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8321D13E9EE00F71760 /* polishback.mp3 */; };
+		BB50F8651D13E9EE00F71760 /* polishbadtaste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8331D13E9EE00F71760 /* polishbadtaste.mp3 */; };
+		BB50F8661D13E9EE00F71760 /* polishbottom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8341D13E9EE00F71760 /* polishbottom.mp3 */; };
+		BB50F8671D13E9EE00F71760 /* polishboysprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8351D13E9EE00F71760 /* polishboysprivates.mp3 */; };
+		BB50F8681D13E9EE00F71760 /* polishbreast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8361D13E9EE00F71760 /* polishbreast.mp3 */; };
+		BB50F8691D13E9EE00F71760 /* polishcannotfeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8371D13E9EE00F71760 /* polishcannotfeel.mp3 */; };
+		BB50F86A1D13E9EE00F71760 /* polishchest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8381D13E9EE00F71760 /* polishchest.mp3 */; };
+		BB50F86B1D13E9EE00F71760 /* polishcold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8391D13E9EE00F71760 /* polishcold.mp3 */; };
+		BB50F86C1D13E9EE00F71760 /* polishcramps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F83A1D13E9EE00F71760 /* polishcramps.mp3 */; };
+		BB50F86D1D13E9EE00F71760 /* polishdizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F83B1D13E9EE00F71760 /* polishdizzy.mp3 */; };
+		BB50F86E1D13E9EE00F71760 /* polishdrowsy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F83C1D13E9EE00F71760 /* polishdrowsy.mp3 */; };
+		BB50F86F1D13E9EE00F71760 /* polishear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F83D1D13E9EE00F71760 /* polishear.mp3 */; };
+		BB50F8701D13E9EE00F71760 /* polishelbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F83E1D13E9EE00F71760 /* polishelbow.mp3 */; };
+		BB50F8711D13E9EE00F71760 /* polisheyeproblems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F83F1D13E9EE00F71760 /* polisheyeproblems.mp3 */; };
+		BB50F8721D13E9EE00F71760 /* polisheyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8401D13E9EE00F71760 /* polisheyes.mp3 */; };
+		BB50F8731D13E9EE00F71760 /* polishfaint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8411D13E9EE00F71760 /* polishfaint.mp3 */; };
+		BB50F8741D13E9EE00F71760 /* polishfemalegenitals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8421D13E9EE00F71760 /* polishfemalegenitals.mp3 */; };
+		BB50F8751D13E9EE00F71760 /* polishfingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8431D13E9EE00F71760 /* polishfingers.mp3 */; };
+		BB50F8761D13E9EE00F71760 /* polishgirlsprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8441D13E9EE00F71760 /* polishgirlsprivates.mp3 */; };
+		BB50F8771D13E9EE00F71760 /* polishgreeting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8451D13E9EE00F71760 /* polishgreeting.mp3 */; };
+		BB50F8781D13E9EE00F71760 /* polishgroin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8461D13E9EE00F71760 /* polishgroin.mp3 */; };
+		BB50F8791D13E9EE00F71760 /* polishhand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8471D13E9EE00F71760 /* polishhand.mp3 */; };
+		BB50F87A1D13E9EE00F71760 /* polishhead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8481D13E9EE00F71760 /* polishhead.mp3 */; };
+		BB50F87B1D13E9EE00F71760 /* polishheart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8491D13E9EE00F71760 /* polishheart.mp3 */; };
+		BB50F87C1D13E9EE00F71760 /* polishhot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F84A1D13E9EE00F71760 /* polishhot.mp3 */; };
+		BB50F87D1D13E9EE00F71760 /* polishhowyoufeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F84B1D13E9EE00F71760 /* polishhowyoufeel.mp3 */; };
+		BB50F87E1D13E9EE00F71760 /* polishinpain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F84C1D13E9EE00F71760 /* polishinpain.mp3 */; };
+		BB50F87F1D13E9EE00F71760 /* polishitchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F84D1D13E9EE00F71760 /* polishitchy.mp3 */; };
+		BB50F8801D13E9EE00F71760 /* polishknee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F84E1D13E9EE00F71760 /* polishknee.mp3 */; };
+		BB50F8811D13E9EE00F71760 /* polishlanguage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F84F1D13E9EE00F71760 /* polishlanguage.mp3 */; };
+		BB50F8821D13E9EE00F71760 /* polishlowerarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8501D13E9EE00F71760 /* polishlowerarm.mp3 */; };
+		BB50F8831D13E9EE00F71760 /* polishlowerleg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8511D13E9EE00F71760 /* polishlowerleg.mp3 */; };
+		BB50F8841D13E9EE00F71760 /* polishmouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8521D13E9EE00F71760 /* polishmouth.mp3 */; };
+		BB50F8851D13E9EE00F71760 /* polishneck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8531D13E9EE00F71760 /* polishneck.mp3 */; };
+		BB50F8861D13E9EE00F71760 /* polishno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8541D13E9EE00F71760 /* polishno.mp3 */; };
+		BB50F8871D13E9EE00F71760 /* polishnose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8551D13E9EE00F71760 /* polishnose.mp3 */; };
+		BB50F8881D13E9EE00F71760 /* polishnumb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8561D13E9EE00F71760 /* polishnumb.mp3 */; };
+		BB50F8891D13E9EE00F71760 /* polishpenis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8571D13E9EE00F71760 /* polishpenis.mp3 */; };
+		BB50F88A1D13E9EE00F71760 /* polishplaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8581D13E9EE00F71760 /* polishplaster.mp3 */; };
+		BB50F88B1D13E9EE00F71760 /* polishribs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8591D13E9EE00F71760 /* polishribs.mp3 */; };
+		BB50F88C1D13E9EE00F71760 /* polishshoulder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F85A1D13E9EE00F71760 /* polishshoulder.mp3 */; };
+		BB50F88D1D13E9EE00F71760 /* polishshowmewhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F85B1D13E9EE00F71760 /* polishshowmewhere.mp3 */; };
+		BB50F88E1D13E9EE00F71760 /* polishsick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F85C1D13E9EE00F71760 /* polishsick.mp3 */; };
+		BB50F88F1D13E9EE00F71760 /* polishtesticles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F85D1D13E9EE00F71760 /* polishtesticles.mp3 */; };
+		BB50F8901D13E9EE00F71760 /* polishthigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F85E1D13E9EE00F71760 /* polishthigh.mp3 */; };
+		BB50F8911D13E9EE00F71760 /* polishtingling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F85F1D13E9EE00F71760 /* polishtingling.mp3 */; };
+		BB50F8921D13E9EE00F71760 /* polishtoes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8601D13E9EE00F71760 /* polishtoes.mp3 */; };
+		BB50F8931D13E9EE00F71760 /* polishtummy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8611D13E9EE00F71760 /* polishtummy.mp3 */; };
+		BB50F8941D13E9EE00F71760 /* polishyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8621D13E9EE00F71760 /* polishyes.mp3 */; };
+		BB50F8C61D13E9FA00F71760 /* somaliache.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8951D13E9FA00F71760 /* somaliache.mp3 */; };
+		BB50F8C71D13E9FA00F71760 /* somaliback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8961D13E9FA00F71760 /* somaliback.mp3 */; };
+		BB50F8C81D13E9FA00F71760 /* somalibadtaste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8971D13E9FA00F71760 /* somalibadtaste.mp3 */; };
+		BB50F8C91D13E9FA00F71760 /* somalibottom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8981D13E9FA00F71760 /* somalibottom.mp3 */; };
+		BB50F8CA1D13E9FA00F71760 /* somaliboysprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8991D13E9FA00F71760 /* somaliboysprivates.mp3 */; };
+		BB50F8CB1D13E9FA00F71760 /* somalibreast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F89A1D13E9FA00F71760 /* somalibreast.mp3 */; };
+		BB50F8CC1D13E9FA00F71760 /* somalicannotfeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F89B1D13E9FA00F71760 /* somalicannotfeel.mp3 */; };
+		BB50F8CD1D13E9FA00F71760 /* somalichest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F89C1D13E9FA00F71760 /* somalichest.mp3 */; };
+		BB50F8CE1D13E9FA00F71760 /* somalicold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F89D1D13E9FA00F71760 /* somalicold.mp3 */; };
+		BB50F8CF1D13E9FA00F71760 /* somalicramps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F89E1D13E9FA00F71760 /* somalicramps.mp3 */; };
+		BB50F8D01D13E9FA00F71760 /* somalidizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F89F1D13E9FA00F71760 /* somalidizzy.mp3 */; };
+		BB50F8D11D13E9FA00F71760 /* somalidrowsy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A01D13E9FA00F71760 /* somalidrowsy.mp3 */; };
+		BB50F8D21D13E9FA00F71760 /* somaliear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A11D13E9FA00F71760 /* somaliear.mp3 */; };
+		BB50F8D31D13E9FA00F71760 /* somalielbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A21D13E9FA00F71760 /* somalielbow.mp3 */; };
+		BB50F8D41D13E9FA00F71760 /* somalieyeproblems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A31D13E9FA00F71760 /* somalieyeproblems.mp3 */; };
+		BB50F8D51D13E9FA00F71760 /* somalieyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A41D13E9FA00F71760 /* somalieyes.mp3 */; };
+		BB50F8D61D13E9FA00F71760 /* somalifaint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A51D13E9FA00F71760 /* somalifaint.mp3 */; };
+		BB50F8D71D13E9FA00F71760 /* somalifemalegenitals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A61D13E9FA00F71760 /* somalifemalegenitals.mp3 */; };
+		BB50F8D81D13E9FA00F71760 /* somalifingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A71D13E9FA00F71760 /* somalifingers.mp3 */; };
+		BB50F8D91D13E9FA00F71760 /* somaligirlsprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A81D13E9FA00F71760 /* somaligirlsprivates.mp3 */; };
+		BB50F8DA1D13E9FA00F71760 /* somaligreeting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8A91D13E9FA00F71760 /* somaligreeting.mp3 */; };
+		BB50F8DB1D13E9FA00F71760 /* somaligroin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8AA1D13E9FA00F71760 /* somaligroin.mp3 */; };
+		BB50F8DC1D13E9FA00F71760 /* somalihand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8AB1D13E9FA00F71760 /* somalihand.mp3 */; };
+		BB50F8DD1D13E9FA00F71760 /* somalihead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8AC1D13E9FA00F71760 /* somalihead.mp3 */; };
+		BB50F8DE1D13E9FA00F71760 /* somaliheart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8AD1D13E9FA00F71760 /* somaliheart.mp3 */; };
+		BB50F8DF1D13E9FA00F71760 /* somalihot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8AE1D13E9FA00F71760 /* somalihot.mp3 */; };
+		BB50F8E01D13E9FA00F71760 /* somalihowyoufeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8AF1D13E9FA00F71760 /* somalihowyoufeel.mp3 */; };
+		BB50F8E11D13E9FA00F71760 /* somaliinpain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B01D13E9FA00F71760 /* somaliinpain.mp3 */; };
+		BB50F8E21D13E9FA00F71760 /* somaliitchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B11D13E9FA00F71760 /* somaliitchy.mp3 */; };
+		BB50F8E31D13E9FA00F71760 /* somaliknee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B21D13E9FA00F71760 /* somaliknee.mp3 */; };
+		BB50F8E41D13E9FA00F71760 /* somalilanguage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B31D13E9FA00F71760 /* somalilanguage.mp3 */; };
+		BB50F8E51D13E9FA00F71760 /* somalilowerarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B41D13E9FA00F71760 /* somalilowerarm.mp3 */; };
+		BB50F8E61D13E9FA00F71760 /* somalilowerleg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B51D13E9FA00F71760 /* somalilowerleg.mp3 */; };
+		BB50F8E71D13E9FA00F71760 /* somalimouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B61D13E9FA00F71760 /* somalimouth.mp3 */; };
+		BB50F8E81D13E9FA00F71760 /* somalineck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B71D13E9FA00F71760 /* somalineck.mp3 */; };
+		BB50F8E91D13E9FA00F71760 /* somalino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B81D13E9FA00F71760 /* somalino.mp3 */; };
+		BB50F8EA1D13E9FA00F71760 /* somalinose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8B91D13E9FA00F71760 /* somalinose.mp3 */; };
+		BB50F8EB1D13E9FA00F71760 /* somalinumb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8BA1D13E9FA00F71760 /* somalinumb.mp3 */; };
+		BB50F8EC1D13E9FA00F71760 /* somalipenis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8BB1D13E9FA00F71760 /* somalipenis.mp3 */; };
+		BB50F8ED1D13E9FA00F71760 /* somaliplaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8BC1D13E9FA00F71760 /* somaliplaster.mp3 */; };
+		BB50F8EE1D13E9FA00F71760 /* somaliribs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8BD1D13E9FA00F71760 /* somaliribs.mp3 */; };
+		BB50F8EF1D13E9FA00F71760 /* somalishoulder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8BE1D13E9FA00F71760 /* somalishoulder.mp3 */; };
+		BB50F8F01D13E9FA00F71760 /* somalishowmewhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8BF1D13E9FA00F71760 /* somalishowmewhere.mp3 */; };
+		BB50F8F11D13E9FA00F71760 /* somalitesticles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8C01D13E9FA00F71760 /* somalitesticles.mp3 */; };
+		BB50F8F21D13E9FA00F71760 /* somalithigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8C11D13E9FA00F71760 /* somalithigh.mp3 */; };
+		BB50F8F31D13E9FA00F71760 /* somalitingling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8C21D13E9FA00F71760 /* somalitingling.mp3 */; };
+		BB50F8F41D13E9FA00F71760 /* somalitoes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8C31D13E9FA00F71760 /* somalitoes.mp3 */; };
+		BB50F8F51D13E9FA00F71760 /* somalitummy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8C41D13E9FA00F71760 /* somalitummy.mp3 */; };
+		BB50F8F61D13E9FA00F71760 /* somaliyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8C51D13E9FA00F71760 /* somaliyes.mp3 */; };
+		BB50F92A1D13EA0D00F71760 /* urduache.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8F71D13EA0D00F71760 /* urduache.mp3 */; };
+		BB50F92B1D13EA0D00F71760 /* urduback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8F81D13EA0D00F71760 /* urduback.mp3 */; };
+		BB50F92C1D13EA0D00F71760 /* urdubadtaste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8F91D13EA0D00F71760 /* urdubadtaste.mp3 */; };
+		BB50F92D1D13EA0D00F71760 /* urdubottom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8FA1D13EA0D00F71760 /* urdubottom.mp3 */; };
+		BB50F92E1D13EA0D00F71760 /* urduboysprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8FB1D13EA0D00F71760 /* urduboysprivates.mp3 */; };
+		BB50F92F1D13EA0D00F71760 /* urdubreast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8FC1D13EA0D00F71760 /* urdubreast.mp3 */; };
+		BB50F9301D13EA0D00F71760 /* urducannotfeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8FD1D13EA0D00F71760 /* urducannotfeel.mp3 */; };
+		BB50F9311D13EA0D00F71760 /* urduchest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8FE1D13EA0D00F71760 /* urduchest.mp3 */; };
+		BB50F9321D13EA0D00F71760 /* urducold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F8FF1D13EA0D00F71760 /* urducold.mp3 */; };
+		BB50F9331D13EA0D00F71760 /* urducramps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9001D13EA0D00F71760 /* urducramps.mp3 */; };
+		BB50F9341D13EA0D00F71760 /* urdudizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9011D13EA0D00F71760 /* urdudizzy.mp3 */; };
+		BB50F9351D13EA0D00F71760 /* urdudrowsy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9021D13EA0D00F71760 /* urdudrowsy.mp3 */; };
+		BB50F9361D13EA0D00F71760 /* urduear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9031D13EA0D00F71760 /* urduear.mp3 */; };
+		BB50F9371D13EA0D00F71760 /* urduelbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9041D13EA0D00F71760 /* urduelbow.mp3 */; };
+		BB50F9381D13EA0D00F71760 /* urdueyeproblems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9051D13EA0D00F71760 /* urdueyeproblems.mp3 */; };
+		BB50F9391D13EA0D00F71760 /* urdueyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9061D13EA0D00F71760 /* urdueyes.mp3 */; };
+		BB50F93A1D13EA0D00F71760 /* urdufaint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9071D13EA0D00F71760 /* urdufaint.mp3 */; };
+		BB50F93B1D13EA0D00F71760 /* urdufemalegenitals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9081D13EA0D00F71760 /* urdufemalegenitals.mp3 */; };
+		BB50F93C1D13EA0D00F71760 /* urdufingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9091D13EA0D00F71760 /* urdufingers.mp3 */; };
+		BB50F93D1D13EA0D00F71760 /* urdugirlsprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F90A1D13EA0D00F71760 /* urdugirlsprivates.mp3 */; };
+		BB50F93E1D13EA0D00F71760 /* urdugreeting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F90B1D13EA0D00F71760 /* urdugreeting.mp3 */; };
+		BB50F93F1D13EA0D00F71760 /* urdugroin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F90C1D13EA0D00F71760 /* urdugroin.mp3 */; };
+		BB50F9401D13EA0D00F71760 /* urduhand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F90D1D13EA0D00F71760 /* urduhand.mp3 */; };
+		BB50F9411D13EA0D00F71760 /* urduhead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F90E1D13EA0D00F71760 /* urduhead.mp3 */; };
+		BB50F9421D13EA0D00F71760 /* urduheart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F90F1D13EA0D00F71760 /* urduheart.mp3 */; };
+		BB50F9431D13EA0D00F71760 /* urduhot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9101D13EA0D00F71760 /* urduhot.mp3 */; };
+		BB50F9441D13EA0D00F71760 /* urduhowyoufeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9111D13EA0D00F71760 /* urduhowyoufeel.mp3 */; };
+		BB50F9451D13EA0D00F71760 /* urduinpain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9121D13EA0D00F71760 /* urduinpain.mp3 */; };
+		BB50F9461D13EA0D00F71760 /* urduitchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9131D13EA0D00F71760 /* urduitchy.mp3 */; };
+		BB50F9471D13EA0D00F71760 /* urduknee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9141D13EA0D00F71760 /* urduknee.mp3 */; };
+		BB50F9481D13EA0D00F71760 /* urdulanguage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9151D13EA0D00F71760 /* urdulanguage.mp3 */; };
+		BB50F9491D13EA0D00F71760 /* urdulowerarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9161D13EA0D00F71760 /* urdulowerarm.mp3 */; };
+		BB50F94A1D13EA0D00F71760 /* urdulowerleg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9171D13EA0D00F71760 /* urdulowerleg.mp3 */; };
+		BB50F94B1D13EA0D00F71760 /* urdumouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9181D13EA0D00F71760 /* urdumouth.mp3 */; };
+		BB50F94C1D13EA0D00F71760 /* urduneck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9191D13EA0D00F71760 /* urduneck.mp3 */; };
+		BB50F94D1D13EA0D00F71760 /* urduno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F91A1D13EA0D00F71760 /* urduno.mp3 */; };
+		BB50F94E1D13EA0D00F71760 /* urdunose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F91B1D13EA0D00F71760 /* urdunose.mp3 */; };
+		BB50F94F1D13EA0D00F71760 /* urdunumb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F91C1D13EA0D00F71760 /* urdunumb.mp3 */; };
+		BB50F9501D13EA0D00F71760 /* urdupenis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F91D1D13EA0D00F71760 /* urdupenis.mp3 */; };
+		BB50F9511D13EA0D00F71760 /* urdupinsneedles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F91E1D13EA0D00F71760 /* urdupinsneedles.mp3 */; };
+		BB50F9521D13EA0D00F71760 /* urduplaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F91F1D13EA0D00F71760 /* urduplaster.mp3 */; };
+		BB50F9531D13EA0D00F71760 /* urduribs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9201D13EA0D00F71760 /* urduribs.mp3 */; };
+		BB50F9541D13EA0D00F71760 /* urdushoulder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9211D13EA0D00F71760 /* urdushoulder.mp3 */; };
+		BB50F9551D13EA0D00F71760 /* urdushowmewhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9221D13EA0D00F71760 /* urdushowmewhere.mp3 */; };
+		BB50F9561D13EA0D00F71760 /* urdusick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9231D13EA0D00F71760 /* urdusick.mp3 */; };
+		BB50F9571D13EA0D00F71760 /* urdutesticles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9241D13EA0D00F71760 /* urdutesticles.mp3 */; };
+		BB50F9581D13EA0D00F71760 /* urduthigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9251D13EA0D00F71760 /* urduthigh.mp3 */; };
+		BB50F9591D13EA0D00F71760 /* urdutingling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9261D13EA0D00F71760 /* urdutingling.mp3 */; };
+		BB50F95A1D13EA0D00F71760 /* urdutoes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9271D13EA0D00F71760 /* urdutoes.mp3 */; };
+		BB50F95B1D13EA0D00F71760 /* urdutummy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9281D13EA0D00F71760 /* urdutummy.mp3 */; };
+		BB50F95C1D13EA0D00F71760 /* urduyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9291D13EA0D00F71760 /* urduyes.mp3 */; };
+		BB50F9901D13EA1A00F71760 /* welshache.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F95D1D13EA1A00F71760 /* welshache.mp3 */; };
+		BB50F9911D13EA1A00F71760 /* welshback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F95E1D13EA1A00F71760 /* welshback.mp3 */; };
+		BB50F9921D13EA1A00F71760 /* welshbadtaste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F95F1D13EA1A00F71760 /* welshbadtaste.mp3 */; };
+		BB50F9931D13EA1A00F71760 /* welshbottom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9601D13EA1A00F71760 /* welshbottom.mp3 */; };
+		BB50F9941D13EA1A00F71760 /* welshboysprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9611D13EA1A00F71760 /* welshboysprivates.mp3 */; };
+		BB50F9951D13EA1A00F71760 /* welshbreast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9621D13EA1A00F71760 /* welshbreast.mp3 */; };
+		BB50F9961D13EA1A00F71760 /* welshcannotfeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9631D13EA1A00F71760 /* welshcannotfeel.mp3 */; };
+		BB50F9971D13EA1A00F71760 /* welshchest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9641D13EA1A00F71760 /* welshchest.mp3 */; };
+		BB50F9981D13EA1A00F71760 /* welshcold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9651D13EA1A00F71760 /* welshcold.mp3 */; };
+		BB50F9991D13EA1A00F71760 /* welshcramps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9661D13EA1A00F71760 /* welshcramps.mp3 */; };
+		BB50F99A1D13EA1A00F71760 /* welshdizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9671D13EA1A00F71760 /* welshdizzy.mp3 */; };
+		BB50F99B1D13EA1A00F71760 /* welshdrowsy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9681D13EA1A00F71760 /* welshdrowsy.mp3 */; };
+		BB50F99C1D13EA1A00F71760 /* welshear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9691D13EA1A00F71760 /* welshear.mp3 */; };
+		BB50F99D1D13EA1A00F71760 /* welshelbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F96A1D13EA1A00F71760 /* welshelbow.mp3 */; };
+		BB50F99E1D13EA1A00F71760 /* welsheyeproblems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F96B1D13EA1A00F71760 /* welsheyeproblems.mp3 */; };
+		BB50F99F1D13EA1A00F71760 /* welsheyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F96C1D13EA1A00F71760 /* welsheyes.mp3 */; };
+		BB50F9A01D13EA1A00F71760 /* welshfaint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F96D1D13EA1A00F71760 /* welshfaint.mp3 */; };
+		BB50F9A11D13EA1A00F71760 /* welshfemalegenitals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F96E1D13EA1A00F71760 /* welshfemalegenitals.mp3 */; };
+		BB50F9A21D13EA1A00F71760 /* welshfingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F96F1D13EA1A00F71760 /* welshfingers.mp3 */; };
+		BB50F9A31D13EA1A00F71760 /* welshgirlsprivates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9701D13EA1A00F71760 /* welshgirlsprivates.mp3 */; };
+		BB50F9A41D13EA1A00F71760 /* welshgreeting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9711D13EA1A00F71760 /* welshgreeting.mp3 */; };
+		BB50F9A51D13EA1A00F71760 /* welshgroin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9721D13EA1A00F71760 /* welshgroin.mp3 */; };
+		BB50F9A61D13EA1A00F71760 /* welshhand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9731D13EA1A00F71760 /* welshhand.mp3 */; };
+		BB50F9A71D13EA1A00F71760 /* welshhead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9741D13EA1A00F71760 /* welshhead.mp3 */; };
+		BB50F9A81D13EA1A00F71760 /* welshheart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9751D13EA1A00F71760 /* welshheart.mp3 */; };
+		BB50F9A91D13EA1A00F71760 /* welshhot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9761D13EA1A00F71760 /* welshhot.mp3 */; };
+		BB50F9AA1D13EA1A00F71760 /* welshhowyoufeel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9771D13EA1A00F71760 /* welshhowyoufeel.mp3 */; };
+		BB50F9AB1D13EA1A00F71760 /* welshinpain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9781D13EA1A00F71760 /* welshinpain.mp3 */; };
+		BB50F9AC1D13EA1A00F71760 /* welshitchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9791D13EA1A00F71760 /* welshitchy.mp3 */; };
+		BB50F9AD1D13EA1A00F71760 /* welshknee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F97A1D13EA1A00F71760 /* welshknee.mp3 */; };
+		BB50F9AE1D13EA1A00F71760 /* welshlanguage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F97B1D13EA1A00F71760 /* welshlanguage.mp3 */; };
+		BB50F9AF1D13EA1A00F71760 /* welshlowerarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F97C1D13EA1A00F71760 /* welshlowerarm.mp3 */; };
+		BB50F9B01D13EA1A00F71760 /* welshlowerleg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F97D1D13EA1A00F71760 /* welshlowerleg.mp3 */; };
+		BB50F9B11D13EA1A00F71760 /* welshmouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F97E1D13EA1A00F71760 /* welshmouth.mp3 */; };
+		BB50F9B21D13EA1A00F71760 /* welshneck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F97F1D13EA1A00F71760 /* welshneck.mp3 */; };
+		BB50F9B31D13EA1A00F71760 /* welshno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9801D13EA1A00F71760 /* welshno.mp3 */; };
+		BB50F9B41D13EA1A00F71760 /* welshnose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9811D13EA1A00F71760 /* welshnose.mp3 */; };
+		BB50F9B51D13EA1A00F71760 /* welshnumb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9821D13EA1A00F71760 /* welshnumb.mp3 */; };
+		BB50F9B61D13EA1A00F71760 /* welshpenis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9831D13EA1A00F71760 /* welshpenis.mp3 */; };
+		BB50F9B71D13EA1A00F71760 /* welshpinsneedles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9841D13EA1A00F71760 /* welshpinsneedles.mp3 */; };
+		BB50F9B81D13EA1A00F71760 /* welshplaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9851D13EA1A00F71760 /* welshplaster.mp3 */; };
+		BB50F9B91D13EA1A00F71760 /* welshribs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9861D13EA1A00F71760 /* welshribs.mp3 */; };
+		BB50F9BA1D13EA1A00F71760 /* welshshoulder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9871D13EA1A00F71760 /* welshshoulder.mp3 */; };
+		BB50F9BB1D13EA1A00F71760 /* welshshowmewhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9881D13EA1A00F71760 /* welshshowmewhere.mp3 */; };
+		BB50F9BC1D13EA1A00F71760 /* welshsick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F9891D13EA1A00F71760 /* welshsick.mp3 */; };
+		BB50F9BD1D13EA1A00F71760 /* welshtesticles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F98A1D13EA1A00F71760 /* welshtesticles.mp3 */; };
+		BB50F9BE1D13EA1A00F71760 /* welshthigh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F98B1D13EA1A00F71760 /* welshthigh.mp3 */; };
+		BB50F9BF1D13EA1A00F71760 /* welshtingling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F98C1D13EA1A00F71760 /* welshtingling.mp3 */; };
+		BB50F9C01D13EA1A00F71760 /* welshtoes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F98D1D13EA1A00F71760 /* welshtoes.mp3 */; };
+		BB50F9C11D13EA1A00F71760 /* welshtummy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F98E1D13EA1A00F71760 /* welshtummy.mp3 */; };
+		BB50F9C21D13EA1A00F71760 /* welshyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB50F98F1D13EA1A00F71760 /* welshyes.mp3 */; };
+		BB68BFE51CA29FC800AC15BC /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB68BFE41CA29FBB00AC15BC /* libRNSound.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTActionSheet;
+		};
+		00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTGeolocation;
+		};
+		00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
+			remoteInfo = RCTVibration;
+		};
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = SMW_Child;
+		};
+		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTSettings;
+		};
+		139FDEF31B06529B00C62182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		146834031AC3E56700842450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTLinking;
+		};
+		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		BB68BFE31CA29FBB00AC15BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB68BFD51CA29FBB00AC15BC /* RNSound.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19825A1E1BD4A89800EE0337;
+			remoteInfo = RNSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
+		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* SMW_ChildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMW_ChildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SMW_ChildTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMW_ChildTests.m; sourceTree = "<group>"; };
+		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
+		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SMW_Child.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMW_Child.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SMW_Child/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SMW_Child/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SMW_Child/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SMW_Child/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SMW_Child/main.m; sourceTree = "<group>"; };
+		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		BB132B851CA406D700F893D3 /* AG Book Rounded Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AG Book Rounded Regular.otf"; path = "../android/app/src/main/assets/fonts/AG Book Rounded Regular.otf"; sourceTree = "<group>"; };
+		BB50F7631D13E9D700F71760 /* arabicache.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicache.mp3; path = ../sounds/Arabic/arabicache.mp3; sourceTree = "<group>"; };
+		BB50F7641D13E9D700F71760 /* arabicback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicback.mp3; path = ../sounds/Arabic/arabicback.mp3; sourceTree = "<group>"; };
+		BB50F7651D13E9D700F71760 /* arabicbadtaste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicbadtaste.mp3; path = ../sounds/Arabic/arabicbadtaste.mp3; sourceTree = "<group>"; };
+		BB50F7661D13E9D700F71760 /* arabicbottom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicbottom.mp3; path = ../sounds/Arabic/arabicbottom.mp3; sourceTree = "<group>"; };
+		BB50F7671D13E9D700F71760 /* arabicboysprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicboysprivates.mp3; path = ../sounds/Arabic/arabicboysprivates.mp3; sourceTree = "<group>"; };
+		BB50F7681D13E9D700F71760 /* arabicbreast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicbreast.mp3; path = ../sounds/Arabic/arabicbreast.mp3; sourceTree = "<group>"; };
+		BB50F7691D13E9D700F71760 /* arabiccannotfeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabiccannotfeel.mp3; path = ../sounds/Arabic/arabiccannotfeel.mp3; sourceTree = "<group>"; };
+		BB50F76A1D13E9D700F71760 /* arabicchest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicchest.mp3; path = ../sounds/Arabic/arabicchest.mp3; sourceTree = "<group>"; };
+		BB50F76B1D13E9D700F71760 /* arabiccold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabiccold.mp3; path = ../sounds/Arabic/arabiccold.mp3; sourceTree = "<group>"; };
+		BB50F76C1D13E9D700F71760 /* arabiccramps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabiccramps.mp3; path = ../sounds/Arabic/arabiccramps.mp3; sourceTree = "<group>"; };
+		BB50F76D1D13E9D700F71760 /* arabicdizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicdizzy.mp3; path = ../sounds/Arabic/arabicdizzy.mp3; sourceTree = "<group>"; };
+		BB50F76E1D13E9D700F71760 /* arabicdrowsy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicdrowsy.mp3; path = ../sounds/Arabic/arabicdrowsy.mp3; sourceTree = "<group>"; };
+		BB50F76F1D13E9D700F71760 /* arabicear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicear.mp3; path = ../sounds/Arabic/arabicear.mp3; sourceTree = "<group>"; };
+		BB50F7701D13E9D700F71760 /* arabicelbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicelbow.mp3; path = ../sounds/Arabic/arabicelbow.mp3; sourceTree = "<group>"; };
+		BB50F7711D13E9D700F71760 /* arabiceyeproblems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabiceyeproblems.mp3; path = ../sounds/Arabic/arabiceyeproblems.mp3; sourceTree = "<group>"; };
+		BB50F7721D13E9D700F71760 /* arabiceyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabiceyes.mp3; path = ../sounds/Arabic/arabiceyes.mp3; sourceTree = "<group>"; };
+		BB50F7731D13E9D700F71760 /* arabicfaint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicfaint.mp3; path = ../sounds/Arabic/arabicfaint.mp3; sourceTree = "<group>"; };
+		BB50F7741D13E9D700F71760 /* arabicfemalegenitals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicfemalegenitals.mp3; path = ../sounds/Arabic/arabicfemalegenitals.mp3; sourceTree = "<group>"; };
+		BB50F7751D13E9D700F71760 /* arabicfingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicfingers.mp3; path = ../sounds/Arabic/arabicfingers.mp3; sourceTree = "<group>"; };
+		BB50F7761D13E9D700F71760 /* arabicfront.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicfront.mp3; path = ../sounds/Arabic/arabicfront.mp3; sourceTree = "<group>"; };
+		BB50F7771D13E9D700F71760 /* arabicgirlsprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicgirlsprivates.mp3; path = ../sounds/Arabic/arabicgirlsprivates.mp3; sourceTree = "<group>"; };
+		BB50F7781D13E9D700F71760 /* arabicgreeting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicgreeting.mp3; path = ../sounds/Arabic/arabicgreeting.mp3; sourceTree = "<group>"; };
+		BB50F7791D13E9D700F71760 /* arabicgroin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicgroin.mp3; path = ../sounds/Arabic/arabicgroin.mp3; sourceTree = "<group>"; };
+		BB50F77A1D13E9D700F71760 /* arabichand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabichand.mp3; path = ../sounds/Arabic/arabichand.mp3; sourceTree = "<group>"; };
+		BB50F77B1D13E9D700F71760 /* arabichead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabichead.mp3; path = ../sounds/Arabic/arabichead.mp3; sourceTree = "<group>"; };
+		BB50F77C1D13E9D700F71760 /* arabicheart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicheart.mp3; path = ../sounds/Arabic/arabicheart.mp3; sourceTree = "<group>"; };
+		BB50F77D1D13E9D700F71760 /* arabichot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabichot.mp3; path = ../sounds/Arabic/arabichot.mp3; sourceTree = "<group>"; };
+		BB50F77E1D13E9D700F71760 /* arabichowyoufeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabichowyoufeel.mp3; path = ../sounds/Arabic/arabichowyoufeel.mp3; sourceTree = "<group>"; };
+		BB50F77F1D13E9D700F71760 /* arabicinpain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicinpain.mp3; path = ../sounds/Arabic/arabicinpain.mp3; sourceTree = "<group>"; };
+		BB50F7801D13E9D700F71760 /* arabicitchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicitchy.mp3; path = ../sounds/Arabic/arabicitchy.mp3; sourceTree = "<group>"; };
+		BB50F7811D13E9D700F71760 /* arabicknee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicknee.mp3; path = ../sounds/Arabic/arabicknee.mp3; sourceTree = "<group>"; };
+		BB50F7821D13E9D700F71760 /* arabiclanguage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabiclanguage.mp3; path = ../sounds/Arabic/arabiclanguage.mp3; sourceTree = "<group>"; };
+		BB50F7831D13E9D700F71760 /* arabiclowerarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabiclowerarm.mp3; path = ../sounds/Arabic/arabiclowerarm.mp3; sourceTree = "<group>"; };
+		BB50F7841D13E9D700F71760 /* arabiclowerleg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabiclowerleg.mp3; path = ../sounds/Arabic/arabiclowerleg.mp3; sourceTree = "<group>"; };
+		BB50F7851D13E9D700F71760 /* arabicmouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicmouth.mp3; path = ../sounds/Arabic/arabicmouth.mp3; sourceTree = "<group>"; };
+		BB50F7861D13E9D700F71760 /* arabicneck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicneck.mp3; path = ../sounds/Arabic/arabicneck.mp3; sourceTree = "<group>"; };
+		BB50F7871D13E9D700F71760 /* arabicno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicno.mp3; path = ../sounds/Arabic/arabicno.mp3; sourceTree = "<group>"; };
+		BB50F7881D13E9D700F71760 /* arabicnose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicnose.mp3; path = ../sounds/Arabic/arabicnose.mp3; sourceTree = "<group>"; };
+		BB50F7891D13E9D700F71760 /* arabicnumb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicnumb.mp3; path = ../sounds/Arabic/arabicnumb.mp3; sourceTree = "<group>"; };
+		BB50F78A1D13E9D700F71760 /* arabicpenis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicpenis.mp3; path = ../sounds/Arabic/arabicpenis.mp3; sourceTree = "<group>"; };
+		BB50F78B1D13E9D700F71760 /* arabicpinsneedles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicpinsneedles.mp3; path = ../sounds/Arabic/arabicpinsneedles.mp3; sourceTree = "<group>"; };
+		BB50F78C1D13E9D700F71760 /* arabicplaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicplaster.mp3; path = ../sounds/Arabic/arabicplaster.mp3; sourceTree = "<group>"; };
+		BB50F78D1D13E9D700F71760 /* arabicribs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicribs.mp3; path = ../sounds/Arabic/arabicribs.mp3; sourceTree = "<group>"; };
+		BB50F78E1D13E9D700F71760 /* arabicshoulder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicshoulder.mp3; path = ../sounds/Arabic/arabicshoulder.mp3; sourceTree = "<group>"; };
+		BB50F78F1D13E9D700F71760 /* arabicshowmewhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicshowmewhere.mp3; path = ../sounds/Arabic/arabicshowmewhere.mp3; sourceTree = "<group>"; };
+		BB50F7901D13E9D700F71760 /* arabicsick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicsick.mp3; path = ../sounds/Arabic/arabicsick.mp3; sourceTree = "<group>"; };
+		BB50F7911D13E9D700F71760 /* arabictesticles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabictesticles.mp3; path = ../sounds/Arabic/arabictesticles.mp3; sourceTree = "<group>"; };
+		BB50F7921D13E9D700F71760 /* arabicthigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicthigh.mp3; path = ../sounds/Arabic/arabicthigh.mp3; sourceTree = "<group>"; };
+		BB50F7931D13E9D700F71760 /* arabictingling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabictingling.mp3; path = ../sounds/Arabic/arabictingling.mp3; sourceTree = "<group>"; };
+		BB50F7941D13E9D700F71760 /* arabictoes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabictoes.mp3; path = ../sounds/Arabic/arabictoes.mp3; sourceTree = "<group>"; };
+		BB50F7951D13E9D700F71760 /* arabictummy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabictummy.mp3; path = ../sounds/Arabic/arabictummy.mp3; sourceTree = "<group>"; };
+		BB50F7961D13E9D700F71760 /* arabicyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = arabicyes.mp3; path = ../sounds/Arabic/arabicyes.mp3; sourceTree = "<group>"; };
+		BB50F7CB1D13E9E200F71760 /* bengaliache.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliache.mp3; path = ../sounds/Bengali/bengaliache.mp3; sourceTree = "<group>"; };
+		BB50F7CC1D13E9E200F71760 /* bengaliback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliback.mp3; path = ../sounds/Bengali/bengaliback.mp3; sourceTree = "<group>"; };
+		BB50F7CD1D13E9E200F71760 /* bengalibadtaste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalibadtaste.mp3; path = ../sounds/Bengali/bengalibadtaste.mp3; sourceTree = "<group>"; };
+		BB50F7CE1D13E9E200F71760 /* bengalibottom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalibottom.mp3; path = ../sounds/Bengali/bengalibottom.mp3; sourceTree = "<group>"; };
+		BB50F7CF1D13E9E200F71760 /* bengaliboysprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliboysprivates.mp3; path = ../sounds/Bengali/bengaliboysprivates.mp3; sourceTree = "<group>"; };
+		BB50F7D01D13E9E200F71760 /* bengalibreast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalibreast.mp3; path = ../sounds/Bengali/bengalibreast.mp3; sourceTree = "<group>"; };
+		BB50F7D11D13E9E200F71760 /* bengalicannotfeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalicannotfeel.mp3; path = ../sounds/Bengali/bengalicannotfeel.mp3; sourceTree = "<group>"; };
+		BB50F7D21D13E9E200F71760 /* bengalichest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalichest.mp3; path = ../sounds/Bengali/bengalichest.mp3; sourceTree = "<group>"; };
+		BB50F7D31D13E9E200F71760 /* bengalicold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalicold.mp3; path = ../sounds/Bengali/bengalicold.mp3; sourceTree = "<group>"; };
+		BB50F7D41D13E9E200F71760 /* bengalicramps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalicramps.mp3; path = ../sounds/Bengali/bengalicramps.mp3; sourceTree = "<group>"; };
+		BB50F7D51D13E9E200F71760 /* bengalidizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalidizzy.mp3; path = ../sounds/Bengali/bengalidizzy.mp3; sourceTree = "<group>"; };
+		BB50F7D61D13E9E200F71760 /* bengalidrowsy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalidrowsy.mp3; path = ../sounds/Bengali/bengalidrowsy.mp3; sourceTree = "<group>"; };
+		BB50F7D71D13E9E200F71760 /* bengaliear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliear.mp3; path = ../sounds/Bengali/bengaliear.mp3; sourceTree = "<group>"; };
+		BB50F7D81D13E9E200F71760 /* bengalielbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalielbow.mp3; path = ../sounds/Bengali/bengalielbow.mp3; sourceTree = "<group>"; };
+		BB50F7D91D13E9E200F71760 /* bengalieyeproblems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalieyeproblems.mp3; path = ../sounds/Bengali/bengalieyeproblems.mp3; sourceTree = "<group>"; };
+		BB50F7DA1D13E9E200F71760 /* bengalieyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalieyes.mp3; path = ../sounds/Bengali/bengalieyes.mp3; sourceTree = "<group>"; };
+		BB50F7DB1D13E9E200F71760 /* bengalifaint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalifaint.mp3; path = ../sounds/Bengali/bengalifaint.mp3; sourceTree = "<group>"; };
+		BB50F7DC1D13E9E200F71760 /* bengalifemalegenitals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalifemalegenitals.mp3; path = ../sounds/Bengali/bengalifemalegenitals.mp3; sourceTree = "<group>"; };
+		BB50F7DD1D13E9E200F71760 /* bengalifingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalifingers.mp3; path = ../sounds/Bengali/bengalifingers.mp3; sourceTree = "<group>"; };
+		BB50F7DE1D13E9E200F71760 /* bengaligirlsprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaligirlsprivates.mp3; path = ../sounds/Bengali/bengaligirlsprivates.mp3; sourceTree = "<group>"; };
+		BB50F7DF1D13E9E200F71760 /* bengaligreeting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaligreeting.mp3; path = ../sounds/Bengali/bengaligreeting.mp3; sourceTree = "<group>"; };
+		BB50F7E01D13E9E200F71760 /* bengaligroin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaligroin.mp3; path = ../sounds/Bengali/bengaligroin.mp3; sourceTree = "<group>"; };
+		BB50F7E11D13E9E200F71760 /* bengalihand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalihand.mp3; path = ../sounds/Bengali/bengalihand.mp3; sourceTree = "<group>"; };
+		BB50F7E21D13E9E200F71760 /* bengalihead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalihead.mp3; path = ../sounds/Bengali/bengalihead.mp3; sourceTree = "<group>"; };
+		BB50F7E31D13E9E200F71760 /* bengaliheart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliheart.mp3; path = ../sounds/Bengali/bengaliheart.mp3; sourceTree = "<group>"; };
+		BB50F7E41D13E9E200F71760 /* bengalihot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalihot.mp3; path = ../sounds/Bengali/bengalihot.mp3; sourceTree = "<group>"; };
+		BB50F7E51D13E9E200F71760 /* bengalihowyoufeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalihowyoufeel.mp3; path = ../sounds/Bengali/bengalihowyoufeel.mp3; sourceTree = "<group>"; };
+		BB50F7E61D13E9E200F71760 /* bengaliinpain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliinpain.mp3; path = ../sounds/Bengali/bengaliinpain.mp3; sourceTree = "<group>"; };
+		BB50F7E71D13E9E200F71760 /* bengaliitchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliitchy.mp3; path = ../sounds/Bengali/bengaliitchy.mp3; sourceTree = "<group>"; };
+		BB50F7E81D13E9E200F71760 /* bengaliknee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliknee.mp3; path = ../sounds/Bengali/bengaliknee.mp3; sourceTree = "<group>"; };
+		BB50F7E91D13E9E200F71760 /* bengalilanguage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalilanguage.mp3; path = ../sounds/Bengali/bengalilanguage.mp3; sourceTree = "<group>"; };
+		BB50F7EA1D13E9E200F71760 /* bengalilowerarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalilowerarm.mp3; path = ../sounds/Bengali/bengalilowerarm.mp3; sourceTree = "<group>"; };
+		BB50F7EB1D13E9E200F71760 /* bengalilowerleg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalilowerleg.mp3; path = ../sounds/Bengali/bengalilowerleg.mp3; sourceTree = "<group>"; };
+		BB50F7EC1D13E9E200F71760 /* bengalimouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalimouth.mp3; path = ../sounds/Bengali/bengalimouth.mp3; sourceTree = "<group>"; };
+		BB50F7ED1D13E9E200F71760 /* bengalineck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalineck.mp3; path = ../sounds/Bengali/bengalineck.mp3; sourceTree = "<group>"; };
+		BB50F7EE1D13E9E200F71760 /* bengalino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalino.mp3; path = ../sounds/Bengali/bengalino.mp3; sourceTree = "<group>"; };
+		BB50F7EF1D13E9E200F71760 /* bengalinose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalinose.mp3; path = ../sounds/Bengali/bengalinose.mp3; sourceTree = "<group>"; };
+		BB50F7F01D13E9E200F71760 /* bengalinumb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalinumb.mp3; path = ../sounds/Bengali/bengalinumb.mp3; sourceTree = "<group>"; };
+		BB50F7F11D13E9E200F71760 /* bengalipenis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalipenis.mp3; path = ../sounds/Bengali/bengalipenis.mp3; sourceTree = "<group>"; };
+		BB50F7F21D13E9E200F71760 /* bengalipinsneedles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalipinsneedles.mp3; path = ../sounds/Bengali/bengalipinsneedles.mp3; sourceTree = "<group>"; };
+		BB50F7F31D13E9E200F71760 /* bengaliplaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliplaster.mp3; path = ../sounds/Bengali/bengaliplaster.mp3; sourceTree = "<group>"; };
+		BB50F7F41D13E9E200F71760 /* bengaliribs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliribs.mp3; path = ../sounds/Bengali/bengaliribs.mp3; sourceTree = "<group>"; };
+		BB50F7F51D13E9E200F71760 /* bengalishoulder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalishoulder.mp3; path = ../sounds/Bengali/bengalishoulder.mp3; sourceTree = "<group>"; };
+		BB50F7F61D13E9E200F71760 /* bengalishowmewhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalishowmewhere.mp3; path = ../sounds/Bengali/bengalishowmewhere.mp3; sourceTree = "<group>"; };
+		BB50F7F71D13E9E200F71760 /* bengalisick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalisick.mp3; path = ../sounds/Bengali/bengalisick.mp3; sourceTree = "<group>"; };
+		BB50F7F81D13E9E200F71760 /* bengalitesticles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalitesticles.mp3; path = ../sounds/Bengali/bengalitesticles.mp3; sourceTree = "<group>"; };
+		BB50F7F91D13E9E200F71760 /* bengalithigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalithigh.mp3; path = ../sounds/Bengali/bengalithigh.mp3; sourceTree = "<group>"; };
+		BB50F7FA1D13E9E200F71760 /* bengalitingling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalitingling.mp3; path = ../sounds/Bengali/bengalitingling.mp3; sourceTree = "<group>"; };
+		BB50F7FB1D13E9E200F71760 /* bengalitoes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalitoes.mp3; path = ../sounds/Bengali/bengalitoes.mp3; sourceTree = "<group>"; };
+		BB50F7FC1D13E9E200F71760 /* bengalitummy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengalitummy.mp3; path = ../sounds/Bengali/bengalitummy.mp3; sourceTree = "<group>"; };
+		BB50F7FD1D13E9E200F71760 /* bengaliyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bengaliyes.mp3; path = ../sounds/Bengali/bengaliyes.mp3; sourceTree = "<group>"; };
+		BB50F8311D13E9EE00F71760 /* polishache.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishache.mp3; path = ../sounds/Polish/polishache.mp3; sourceTree = "<group>"; };
+		BB50F8321D13E9EE00F71760 /* polishback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishback.mp3; path = ../sounds/Polish/polishback.mp3; sourceTree = "<group>"; };
+		BB50F8331D13E9EE00F71760 /* polishbadtaste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishbadtaste.mp3; path = ../sounds/Polish/polishbadtaste.mp3; sourceTree = "<group>"; };
+		BB50F8341D13E9EE00F71760 /* polishbottom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishbottom.mp3; path = ../sounds/Polish/polishbottom.mp3; sourceTree = "<group>"; };
+		BB50F8351D13E9EE00F71760 /* polishboysprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishboysprivates.mp3; path = ../sounds/Polish/polishboysprivates.mp3; sourceTree = "<group>"; };
+		BB50F8361D13E9EE00F71760 /* polishbreast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishbreast.mp3; path = ../sounds/Polish/polishbreast.mp3; sourceTree = "<group>"; };
+		BB50F8371D13E9EE00F71760 /* polishcannotfeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishcannotfeel.mp3; path = ../sounds/Polish/polishcannotfeel.mp3; sourceTree = "<group>"; };
+		BB50F8381D13E9EE00F71760 /* polishchest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishchest.mp3; path = ../sounds/Polish/polishchest.mp3; sourceTree = "<group>"; };
+		BB50F8391D13E9EE00F71760 /* polishcold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishcold.mp3; path = ../sounds/Polish/polishcold.mp3; sourceTree = "<group>"; };
+		BB50F83A1D13E9EE00F71760 /* polishcramps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishcramps.mp3; path = ../sounds/Polish/polishcramps.mp3; sourceTree = "<group>"; };
+		BB50F83B1D13E9EE00F71760 /* polishdizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishdizzy.mp3; path = ../sounds/Polish/polishdizzy.mp3; sourceTree = "<group>"; };
+		BB50F83C1D13E9EE00F71760 /* polishdrowsy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishdrowsy.mp3; path = ../sounds/Polish/polishdrowsy.mp3; sourceTree = "<group>"; };
+		BB50F83D1D13E9EE00F71760 /* polishear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishear.mp3; path = ../sounds/Polish/polishear.mp3; sourceTree = "<group>"; };
+		BB50F83E1D13E9EE00F71760 /* polishelbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishelbow.mp3; path = ../sounds/Polish/polishelbow.mp3; sourceTree = "<group>"; };
+		BB50F83F1D13E9EE00F71760 /* polisheyeproblems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polisheyeproblems.mp3; path = ../sounds/Polish/polisheyeproblems.mp3; sourceTree = "<group>"; };
+		BB50F8401D13E9EE00F71760 /* polisheyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polisheyes.mp3; path = ../sounds/Polish/polisheyes.mp3; sourceTree = "<group>"; };
+		BB50F8411D13E9EE00F71760 /* polishfaint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishfaint.mp3; path = ../sounds/Polish/polishfaint.mp3; sourceTree = "<group>"; };
+		BB50F8421D13E9EE00F71760 /* polishfemalegenitals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishfemalegenitals.mp3; path = ../sounds/Polish/polishfemalegenitals.mp3; sourceTree = "<group>"; };
+		BB50F8431D13E9EE00F71760 /* polishfingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishfingers.mp3; path = ../sounds/Polish/polishfingers.mp3; sourceTree = "<group>"; };
+		BB50F8441D13E9EE00F71760 /* polishgirlsprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishgirlsprivates.mp3; path = ../sounds/Polish/polishgirlsprivates.mp3; sourceTree = "<group>"; };
+		BB50F8451D13E9EE00F71760 /* polishgreeting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishgreeting.mp3; path = ../sounds/Polish/polishgreeting.mp3; sourceTree = "<group>"; };
+		BB50F8461D13E9EE00F71760 /* polishgroin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishgroin.mp3; path = ../sounds/Polish/polishgroin.mp3; sourceTree = "<group>"; };
+		BB50F8471D13E9EE00F71760 /* polishhand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishhand.mp3; path = ../sounds/Polish/polishhand.mp3; sourceTree = "<group>"; };
+		BB50F8481D13E9EE00F71760 /* polishhead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishhead.mp3; path = ../sounds/Polish/polishhead.mp3; sourceTree = "<group>"; };
+		BB50F8491D13E9EE00F71760 /* polishheart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishheart.mp3; path = ../sounds/Polish/polishheart.mp3; sourceTree = "<group>"; };
+		BB50F84A1D13E9EE00F71760 /* polishhot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishhot.mp3; path = ../sounds/Polish/polishhot.mp3; sourceTree = "<group>"; };
+		BB50F84B1D13E9EE00F71760 /* polishhowyoufeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishhowyoufeel.mp3; path = ../sounds/Polish/polishhowyoufeel.mp3; sourceTree = "<group>"; };
+		BB50F84C1D13E9EE00F71760 /* polishinpain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishinpain.mp3; path = ../sounds/Polish/polishinpain.mp3; sourceTree = "<group>"; };
+		BB50F84D1D13E9EE00F71760 /* polishitchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishitchy.mp3; path = ../sounds/Polish/polishitchy.mp3; sourceTree = "<group>"; };
+		BB50F84E1D13E9EE00F71760 /* polishknee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishknee.mp3; path = ../sounds/Polish/polishknee.mp3; sourceTree = "<group>"; };
+		BB50F84F1D13E9EE00F71760 /* polishlanguage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishlanguage.mp3; path = ../sounds/Polish/polishlanguage.mp3; sourceTree = "<group>"; };
+		BB50F8501D13E9EE00F71760 /* polishlowerarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishlowerarm.mp3; path = ../sounds/Polish/polishlowerarm.mp3; sourceTree = "<group>"; };
+		BB50F8511D13E9EE00F71760 /* polishlowerleg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishlowerleg.mp3; path = ../sounds/Polish/polishlowerleg.mp3; sourceTree = "<group>"; };
+		BB50F8521D13E9EE00F71760 /* polishmouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishmouth.mp3; path = ../sounds/Polish/polishmouth.mp3; sourceTree = "<group>"; };
+		BB50F8531D13E9EE00F71760 /* polishneck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishneck.mp3; path = ../sounds/Polish/polishneck.mp3; sourceTree = "<group>"; };
+		BB50F8541D13E9EE00F71760 /* polishno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishno.mp3; path = ../sounds/Polish/polishno.mp3; sourceTree = "<group>"; };
+		BB50F8551D13E9EE00F71760 /* polishnose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishnose.mp3; path = ../sounds/Polish/polishnose.mp3; sourceTree = "<group>"; };
+		BB50F8561D13E9EE00F71760 /* polishnumb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishnumb.mp3; path = ../sounds/Polish/polishnumb.mp3; sourceTree = "<group>"; };
+		BB50F8571D13E9EE00F71760 /* polishpenis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishpenis.mp3; path = ../sounds/Polish/polishpenis.mp3; sourceTree = "<group>"; };
+		BB50F8581D13E9EE00F71760 /* polishplaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishplaster.mp3; path = ../sounds/Polish/polishplaster.mp3; sourceTree = "<group>"; };
+		BB50F8591D13E9EE00F71760 /* polishribs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishribs.mp3; path = ../sounds/Polish/polishribs.mp3; sourceTree = "<group>"; };
+		BB50F85A1D13E9EE00F71760 /* polishshoulder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishshoulder.mp3; path = ../sounds/Polish/polishshoulder.mp3; sourceTree = "<group>"; };
+		BB50F85B1D13E9EE00F71760 /* polishshowmewhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishshowmewhere.mp3; path = ../sounds/Polish/polishshowmewhere.mp3; sourceTree = "<group>"; };
+		BB50F85C1D13E9EE00F71760 /* polishsick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishsick.mp3; path = ../sounds/Polish/polishsick.mp3; sourceTree = "<group>"; };
+		BB50F85D1D13E9EE00F71760 /* polishtesticles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishtesticles.mp3; path = ../sounds/Polish/polishtesticles.mp3; sourceTree = "<group>"; };
+		BB50F85E1D13E9EE00F71760 /* polishthigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishthigh.mp3; path = ../sounds/Polish/polishthigh.mp3; sourceTree = "<group>"; };
+		BB50F85F1D13E9EE00F71760 /* polishtingling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishtingling.mp3; path = ../sounds/Polish/polishtingling.mp3; sourceTree = "<group>"; };
+		BB50F8601D13E9EE00F71760 /* polishtoes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishtoes.mp3; path = ../sounds/Polish/polishtoes.mp3; sourceTree = "<group>"; };
+		BB50F8611D13E9EE00F71760 /* polishtummy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishtummy.mp3; path = ../sounds/Polish/polishtummy.mp3; sourceTree = "<group>"; };
+		BB50F8621D13E9EE00F71760 /* polishyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = polishyes.mp3; path = ../sounds/Polish/polishyes.mp3; sourceTree = "<group>"; };
+		BB50F8951D13E9FA00F71760 /* somaliache.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliache.mp3; path = ../sounds/Somali/somaliache.mp3; sourceTree = "<group>"; };
+		BB50F8961D13E9FA00F71760 /* somaliback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliback.mp3; path = ../sounds/Somali/somaliback.mp3; sourceTree = "<group>"; };
+		BB50F8971D13E9FA00F71760 /* somalibadtaste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalibadtaste.mp3; path = ../sounds/Somali/somalibadtaste.mp3; sourceTree = "<group>"; };
+		BB50F8981D13E9FA00F71760 /* somalibottom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalibottom.mp3; path = ../sounds/Somali/somalibottom.mp3; sourceTree = "<group>"; };
+		BB50F8991D13E9FA00F71760 /* somaliboysprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliboysprivates.mp3; path = ../sounds/Somali/somaliboysprivates.mp3; sourceTree = "<group>"; };
+		BB50F89A1D13E9FA00F71760 /* somalibreast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalibreast.mp3; path = ../sounds/Somali/somalibreast.mp3; sourceTree = "<group>"; };
+		BB50F89B1D13E9FA00F71760 /* somalicannotfeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalicannotfeel.mp3; path = ../sounds/Somali/somalicannotfeel.mp3; sourceTree = "<group>"; };
+		BB50F89C1D13E9FA00F71760 /* somalichest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalichest.mp3; path = ../sounds/Somali/somalichest.mp3; sourceTree = "<group>"; };
+		BB50F89D1D13E9FA00F71760 /* somalicold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalicold.mp3; path = ../sounds/Somali/somalicold.mp3; sourceTree = "<group>"; };
+		BB50F89E1D13E9FA00F71760 /* somalicramps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalicramps.mp3; path = ../sounds/Somali/somalicramps.mp3; sourceTree = "<group>"; };
+		BB50F89F1D13E9FA00F71760 /* somalidizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalidizzy.mp3; path = ../sounds/Somali/somalidizzy.mp3; sourceTree = "<group>"; };
+		BB50F8A01D13E9FA00F71760 /* somalidrowsy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalidrowsy.mp3; path = ../sounds/Somali/somalidrowsy.mp3; sourceTree = "<group>"; };
+		BB50F8A11D13E9FA00F71760 /* somaliear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliear.mp3; path = ../sounds/Somali/somaliear.mp3; sourceTree = "<group>"; };
+		BB50F8A21D13E9FA00F71760 /* somalielbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalielbow.mp3; path = ../sounds/Somali/somalielbow.mp3; sourceTree = "<group>"; };
+		BB50F8A31D13E9FA00F71760 /* somalieyeproblems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalieyeproblems.mp3; path = ../sounds/Somali/somalieyeproblems.mp3; sourceTree = "<group>"; };
+		BB50F8A41D13E9FA00F71760 /* somalieyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalieyes.mp3; path = ../sounds/Somali/somalieyes.mp3; sourceTree = "<group>"; };
+		BB50F8A51D13E9FA00F71760 /* somalifaint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalifaint.mp3; path = ../sounds/Somali/somalifaint.mp3; sourceTree = "<group>"; };
+		BB50F8A61D13E9FA00F71760 /* somalifemalegenitals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalifemalegenitals.mp3; path = ../sounds/Somali/somalifemalegenitals.mp3; sourceTree = "<group>"; };
+		BB50F8A71D13E9FA00F71760 /* somalifingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalifingers.mp3; path = ../sounds/Somali/somalifingers.mp3; sourceTree = "<group>"; };
+		BB50F8A81D13E9FA00F71760 /* somaligirlsprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaligirlsprivates.mp3; path = ../sounds/Somali/somaligirlsprivates.mp3; sourceTree = "<group>"; };
+		BB50F8A91D13E9FA00F71760 /* somaligreeting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaligreeting.mp3; path = ../sounds/Somali/somaligreeting.mp3; sourceTree = "<group>"; };
+		BB50F8AA1D13E9FA00F71760 /* somaligroin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaligroin.mp3; path = ../sounds/Somali/somaligroin.mp3; sourceTree = "<group>"; };
+		BB50F8AB1D13E9FA00F71760 /* somalihand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalihand.mp3; path = ../sounds/Somali/somalihand.mp3; sourceTree = "<group>"; };
+		BB50F8AC1D13E9FA00F71760 /* somalihead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalihead.mp3; path = ../sounds/Somali/somalihead.mp3; sourceTree = "<group>"; };
+		BB50F8AD1D13E9FA00F71760 /* somaliheart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliheart.mp3; path = ../sounds/Somali/somaliheart.mp3; sourceTree = "<group>"; };
+		BB50F8AE1D13E9FA00F71760 /* somalihot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalihot.mp3; path = ../sounds/Somali/somalihot.mp3; sourceTree = "<group>"; };
+		BB50F8AF1D13E9FA00F71760 /* somalihowyoufeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalihowyoufeel.mp3; path = ../sounds/Somali/somalihowyoufeel.mp3; sourceTree = "<group>"; };
+		BB50F8B01D13E9FA00F71760 /* somaliinpain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliinpain.mp3; path = ../sounds/Somali/somaliinpain.mp3; sourceTree = "<group>"; };
+		BB50F8B11D13E9FA00F71760 /* somaliitchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliitchy.mp3; path = ../sounds/Somali/somaliitchy.mp3; sourceTree = "<group>"; };
+		BB50F8B21D13E9FA00F71760 /* somaliknee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliknee.mp3; path = ../sounds/Somali/somaliknee.mp3; sourceTree = "<group>"; };
+		BB50F8B31D13E9FA00F71760 /* somalilanguage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalilanguage.mp3; path = ../sounds/Somali/somalilanguage.mp3; sourceTree = "<group>"; };
+		BB50F8B41D13E9FA00F71760 /* somalilowerarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalilowerarm.mp3; path = ../sounds/Somali/somalilowerarm.mp3; sourceTree = "<group>"; };
+		BB50F8B51D13E9FA00F71760 /* somalilowerleg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalilowerleg.mp3; path = ../sounds/Somali/somalilowerleg.mp3; sourceTree = "<group>"; };
+		BB50F8B61D13E9FA00F71760 /* somalimouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalimouth.mp3; path = ../sounds/Somali/somalimouth.mp3; sourceTree = "<group>"; };
+		BB50F8B71D13E9FA00F71760 /* somalineck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalineck.mp3; path = ../sounds/Somali/somalineck.mp3; sourceTree = "<group>"; };
+		BB50F8B81D13E9FA00F71760 /* somalino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalino.mp3; path = ../sounds/Somali/somalino.mp3; sourceTree = "<group>"; };
+		BB50F8B91D13E9FA00F71760 /* somalinose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalinose.mp3; path = ../sounds/Somali/somalinose.mp3; sourceTree = "<group>"; };
+		BB50F8BA1D13E9FA00F71760 /* somalinumb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalinumb.mp3; path = ../sounds/Somali/somalinumb.mp3; sourceTree = "<group>"; };
+		BB50F8BB1D13E9FA00F71760 /* somalipenis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalipenis.mp3; path = ../sounds/Somali/somalipenis.mp3; sourceTree = "<group>"; };
+		BB50F8BC1D13E9FA00F71760 /* somaliplaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliplaster.mp3; path = ../sounds/Somali/somaliplaster.mp3; sourceTree = "<group>"; };
+		BB50F8BD1D13E9FA00F71760 /* somaliribs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliribs.mp3; path = ../sounds/Somali/somaliribs.mp3; sourceTree = "<group>"; };
+		BB50F8BE1D13E9FA00F71760 /* somalishoulder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalishoulder.mp3; path = ../sounds/Somali/somalishoulder.mp3; sourceTree = "<group>"; };
+		BB50F8BF1D13E9FA00F71760 /* somalishowmewhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalishowmewhere.mp3; path = ../sounds/Somali/somalishowmewhere.mp3; sourceTree = "<group>"; };
+		BB50F8C01D13E9FA00F71760 /* somalitesticles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalitesticles.mp3; path = ../sounds/Somali/somalitesticles.mp3; sourceTree = "<group>"; };
+		BB50F8C11D13E9FA00F71760 /* somalithigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalithigh.mp3; path = ../sounds/Somali/somalithigh.mp3; sourceTree = "<group>"; };
+		BB50F8C21D13E9FA00F71760 /* somalitingling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalitingling.mp3; path = ../sounds/Somali/somalitingling.mp3; sourceTree = "<group>"; };
+		BB50F8C31D13E9FA00F71760 /* somalitoes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalitoes.mp3; path = ../sounds/Somali/somalitoes.mp3; sourceTree = "<group>"; };
+		BB50F8C41D13E9FA00F71760 /* somalitummy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somalitummy.mp3; path = ../sounds/Somali/somalitummy.mp3; sourceTree = "<group>"; };
+		BB50F8C51D13E9FA00F71760 /* somaliyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = somaliyes.mp3; path = ../sounds/Somali/somaliyes.mp3; sourceTree = "<group>"; };
+		BB50F8F71D13EA0D00F71760 /* urduache.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduache.mp3; path = ../sounds/Urdu/urduache.mp3; sourceTree = "<group>"; };
+		BB50F8F81D13EA0D00F71760 /* urduback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduback.mp3; path = ../sounds/Urdu/urduback.mp3; sourceTree = "<group>"; };
+		BB50F8F91D13EA0D00F71760 /* urdubadtaste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdubadtaste.mp3; path = ../sounds/Urdu/urdubadtaste.mp3; sourceTree = "<group>"; };
+		BB50F8FA1D13EA0D00F71760 /* urdubottom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdubottom.mp3; path = ../sounds/Urdu/urdubottom.mp3; sourceTree = "<group>"; };
+		BB50F8FB1D13EA0D00F71760 /* urduboysprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduboysprivates.mp3; path = ../sounds/Urdu/urduboysprivates.mp3; sourceTree = "<group>"; };
+		BB50F8FC1D13EA0D00F71760 /* urdubreast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdubreast.mp3; path = ../sounds/Urdu/urdubreast.mp3; sourceTree = "<group>"; };
+		BB50F8FD1D13EA0D00F71760 /* urducannotfeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urducannotfeel.mp3; path = ../sounds/Urdu/urducannotfeel.mp3; sourceTree = "<group>"; };
+		BB50F8FE1D13EA0D00F71760 /* urduchest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduchest.mp3; path = ../sounds/Urdu/urduchest.mp3; sourceTree = "<group>"; };
+		BB50F8FF1D13EA0D00F71760 /* urducold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urducold.mp3; path = ../sounds/Urdu/urducold.mp3; sourceTree = "<group>"; };
+		BB50F9001D13EA0D00F71760 /* urducramps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urducramps.mp3; path = ../sounds/Urdu/urducramps.mp3; sourceTree = "<group>"; };
+		BB50F9011D13EA0D00F71760 /* urdudizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdudizzy.mp3; path = ../sounds/Urdu/urdudizzy.mp3; sourceTree = "<group>"; };
+		BB50F9021D13EA0D00F71760 /* urdudrowsy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdudrowsy.mp3; path = ../sounds/Urdu/urdudrowsy.mp3; sourceTree = "<group>"; };
+		BB50F9031D13EA0D00F71760 /* urduear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduear.mp3; path = ../sounds/Urdu/urduear.mp3; sourceTree = "<group>"; };
+		BB50F9041D13EA0D00F71760 /* urduelbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduelbow.mp3; path = ../sounds/Urdu/urduelbow.mp3; sourceTree = "<group>"; };
+		BB50F9051D13EA0D00F71760 /* urdueyeproblems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdueyeproblems.mp3; path = ../sounds/Urdu/urdueyeproblems.mp3; sourceTree = "<group>"; };
+		BB50F9061D13EA0D00F71760 /* urdueyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdueyes.mp3; path = ../sounds/Urdu/urdueyes.mp3; sourceTree = "<group>"; };
+		BB50F9071D13EA0D00F71760 /* urdufaint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdufaint.mp3; path = ../sounds/Urdu/urdufaint.mp3; sourceTree = "<group>"; };
+		BB50F9081D13EA0D00F71760 /* urdufemalegenitals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdufemalegenitals.mp3; path = ../sounds/Urdu/urdufemalegenitals.mp3; sourceTree = "<group>"; };
+		BB50F9091D13EA0D00F71760 /* urdufingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdufingers.mp3; path = ../sounds/Urdu/urdufingers.mp3; sourceTree = "<group>"; };
+		BB50F90A1D13EA0D00F71760 /* urdugirlsprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdugirlsprivates.mp3; path = ../sounds/Urdu/urdugirlsprivates.mp3; sourceTree = "<group>"; };
+		BB50F90B1D13EA0D00F71760 /* urdugreeting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdugreeting.mp3; path = ../sounds/Urdu/urdugreeting.mp3; sourceTree = "<group>"; };
+		BB50F90C1D13EA0D00F71760 /* urdugroin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdugroin.mp3; path = ../sounds/Urdu/urdugroin.mp3; sourceTree = "<group>"; };
+		BB50F90D1D13EA0D00F71760 /* urduhand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduhand.mp3; path = ../sounds/Urdu/urduhand.mp3; sourceTree = "<group>"; };
+		BB50F90E1D13EA0D00F71760 /* urduhead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduhead.mp3; path = ../sounds/Urdu/urduhead.mp3; sourceTree = "<group>"; };
+		BB50F90F1D13EA0D00F71760 /* urduheart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduheart.mp3; path = ../sounds/Urdu/urduheart.mp3; sourceTree = "<group>"; };
+		BB50F9101D13EA0D00F71760 /* urduhot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduhot.mp3; path = ../sounds/Urdu/urduhot.mp3; sourceTree = "<group>"; };
+		BB50F9111D13EA0D00F71760 /* urduhowyoufeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduhowyoufeel.mp3; path = ../sounds/Urdu/urduhowyoufeel.mp3; sourceTree = "<group>"; };
+		BB50F9121D13EA0D00F71760 /* urduinpain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduinpain.mp3; path = ../sounds/Urdu/urduinpain.mp3; sourceTree = "<group>"; };
+		BB50F9131D13EA0D00F71760 /* urduitchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduitchy.mp3; path = ../sounds/Urdu/urduitchy.mp3; sourceTree = "<group>"; };
+		BB50F9141D13EA0D00F71760 /* urduknee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduknee.mp3; path = ../sounds/Urdu/urduknee.mp3; sourceTree = "<group>"; };
+		BB50F9151D13EA0D00F71760 /* urdulanguage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdulanguage.mp3; path = ../sounds/Urdu/urdulanguage.mp3; sourceTree = "<group>"; };
+		BB50F9161D13EA0D00F71760 /* urdulowerarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdulowerarm.mp3; path = ../sounds/Urdu/urdulowerarm.mp3; sourceTree = "<group>"; };
+		BB50F9171D13EA0D00F71760 /* urdulowerleg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdulowerleg.mp3; path = ../sounds/Urdu/urdulowerleg.mp3; sourceTree = "<group>"; };
+		BB50F9181D13EA0D00F71760 /* urdumouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdumouth.mp3; path = ../sounds/Urdu/urdumouth.mp3; sourceTree = "<group>"; };
+		BB50F9191D13EA0D00F71760 /* urduneck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduneck.mp3; path = ../sounds/Urdu/urduneck.mp3; sourceTree = "<group>"; };
+		BB50F91A1D13EA0D00F71760 /* urduno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduno.mp3; path = ../sounds/Urdu/urduno.mp3; sourceTree = "<group>"; };
+		BB50F91B1D13EA0D00F71760 /* urdunose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdunose.mp3; path = ../sounds/Urdu/urdunose.mp3; sourceTree = "<group>"; };
+		BB50F91C1D13EA0D00F71760 /* urdunumb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdunumb.mp3; path = ../sounds/Urdu/urdunumb.mp3; sourceTree = "<group>"; };
+		BB50F91D1D13EA0D00F71760 /* urdupenis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdupenis.mp3; path = ../sounds/Urdu/urdupenis.mp3; sourceTree = "<group>"; };
+		BB50F91E1D13EA0D00F71760 /* urdupinsneedles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdupinsneedles.mp3; path = ../sounds/Urdu/urdupinsneedles.mp3; sourceTree = "<group>"; };
+		BB50F91F1D13EA0D00F71760 /* urduplaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduplaster.mp3; path = ../sounds/Urdu/urduplaster.mp3; sourceTree = "<group>"; };
+		BB50F9201D13EA0D00F71760 /* urduribs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduribs.mp3; path = ../sounds/Urdu/urduribs.mp3; sourceTree = "<group>"; };
+		BB50F9211D13EA0D00F71760 /* urdushoulder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdushoulder.mp3; path = ../sounds/Urdu/urdushoulder.mp3; sourceTree = "<group>"; };
+		BB50F9221D13EA0D00F71760 /* urdushowmewhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdushowmewhere.mp3; path = ../sounds/Urdu/urdushowmewhere.mp3; sourceTree = "<group>"; };
+		BB50F9231D13EA0D00F71760 /* urdusick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdusick.mp3; path = ../sounds/Urdu/urdusick.mp3; sourceTree = "<group>"; };
+		BB50F9241D13EA0D00F71760 /* urdutesticles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdutesticles.mp3; path = ../sounds/Urdu/urdutesticles.mp3; sourceTree = "<group>"; };
+		BB50F9251D13EA0D00F71760 /* urduthigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduthigh.mp3; path = ../sounds/Urdu/urduthigh.mp3; sourceTree = "<group>"; };
+		BB50F9261D13EA0D00F71760 /* urdutingling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdutingling.mp3; path = ../sounds/Urdu/urdutingling.mp3; sourceTree = "<group>"; };
+		BB50F9271D13EA0D00F71760 /* urdutoes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdutoes.mp3; path = ../sounds/Urdu/urdutoes.mp3; sourceTree = "<group>"; };
+		BB50F9281D13EA0D00F71760 /* urdutummy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urdutummy.mp3; path = ../sounds/Urdu/urdutummy.mp3; sourceTree = "<group>"; };
+		BB50F9291D13EA0D00F71760 /* urduyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = urduyes.mp3; path = ../sounds/Urdu/urduyes.mp3; sourceTree = "<group>"; };
+		BB50F95D1D13EA1A00F71760 /* welshache.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshache.mp3; path = ../sounds/Welsh/welshache.mp3; sourceTree = "<group>"; };
+		BB50F95E1D13EA1A00F71760 /* welshback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshback.mp3; path = ../sounds/Welsh/welshback.mp3; sourceTree = "<group>"; };
+		BB50F95F1D13EA1A00F71760 /* welshbadtaste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshbadtaste.mp3; path = ../sounds/Welsh/welshbadtaste.mp3; sourceTree = "<group>"; };
+		BB50F9601D13EA1A00F71760 /* welshbottom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshbottom.mp3; path = ../sounds/Welsh/welshbottom.mp3; sourceTree = "<group>"; };
+		BB50F9611D13EA1A00F71760 /* welshboysprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshboysprivates.mp3; path = ../sounds/Welsh/welshboysprivates.mp3; sourceTree = "<group>"; };
+		BB50F9621D13EA1A00F71760 /* welshbreast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshbreast.mp3; path = ../sounds/Welsh/welshbreast.mp3; sourceTree = "<group>"; };
+		BB50F9631D13EA1A00F71760 /* welshcannotfeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshcannotfeel.mp3; path = ../sounds/Welsh/welshcannotfeel.mp3; sourceTree = "<group>"; };
+		BB50F9641D13EA1A00F71760 /* welshchest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshchest.mp3; path = ../sounds/Welsh/welshchest.mp3; sourceTree = "<group>"; };
+		BB50F9651D13EA1A00F71760 /* welshcold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshcold.mp3; path = ../sounds/Welsh/welshcold.mp3; sourceTree = "<group>"; };
+		BB50F9661D13EA1A00F71760 /* welshcramps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshcramps.mp3; path = ../sounds/Welsh/welshcramps.mp3; sourceTree = "<group>"; };
+		BB50F9671D13EA1A00F71760 /* welshdizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshdizzy.mp3; path = ../sounds/Welsh/welshdizzy.mp3; sourceTree = "<group>"; };
+		BB50F9681D13EA1A00F71760 /* welshdrowsy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshdrowsy.mp3; path = ../sounds/Welsh/welshdrowsy.mp3; sourceTree = "<group>"; };
+		BB50F9691D13EA1A00F71760 /* welshear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshear.mp3; path = ../sounds/Welsh/welshear.mp3; sourceTree = "<group>"; };
+		BB50F96A1D13EA1A00F71760 /* welshelbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshelbow.mp3; path = ../sounds/Welsh/welshelbow.mp3; sourceTree = "<group>"; };
+		BB50F96B1D13EA1A00F71760 /* welsheyeproblems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welsheyeproblems.mp3; path = ../sounds/Welsh/welsheyeproblems.mp3; sourceTree = "<group>"; };
+		BB50F96C1D13EA1A00F71760 /* welsheyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welsheyes.mp3; path = ../sounds/Welsh/welsheyes.mp3; sourceTree = "<group>"; };
+		BB50F96D1D13EA1A00F71760 /* welshfaint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshfaint.mp3; path = ../sounds/Welsh/welshfaint.mp3; sourceTree = "<group>"; };
+		BB50F96E1D13EA1A00F71760 /* welshfemalegenitals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshfemalegenitals.mp3; path = ../sounds/Welsh/welshfemalegenitals.mp3; sourceTree = "<group>"; };
+		BB50F96F1D13EA1A00F71760 /* welshfingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshfingers.mp3; path = ../sounds/Welsh/welshfingers.mp3; sourceTree = "<group>"; };
+		BB50F9701D13EA1A00F71760 /* welshgirlsprivates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshgirlsprivates.mp3; path = ../sounds/Welsh/welshgirlsprivates.mp3; sourceTree = "<group>"; };
+		BB50F9711D13EA1A00F71760 /* welshgreeting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshgreeting.mp3; path = ../sounds/Welsh/welshgreeting.mp3; sourceTree = "<group>"; };
+		BB50F9721D13EA1A00F71760 /* welshgroin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshgroin.mp3; path = ../sounds/Welsh/welshgroin.mp3; sourceTree = "<group>"; };
+		BB50F9731D13EA1A00F71760 /* welshhand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshhand.mp3; path = ../sounds/Welsh/welshhand.mp3; sourceTree = "<group>"; };
+		BB50F9741D13EA1A00F71760 /* welshhead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshhead.mp3; path = ../sounds/Welsh/welshhead.mp3; sourceTree = "<group>"; };
+		BB50F9751D13EA1A00F71760 /* welshheart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshheart.mp3; path = ../sounds/Welsh/welshheart.mp3; sourceTree = "<group>"; };
+		BB50F9761D13EA1A00F71760 /* welshhot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshhot.mp3; path = ../sounds/Welsh/welshhot.mp3; sourceTree = "<group>"; };
+		BB50F9771D13EA1A00F71760 /* welshhowyoufeel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshhowyoufeel.mp3; path = ../sounds/Welsh/welshhowyoufeel.mp3; sourceTree = "<group>"; };
+		BB50F9781D13EA1A00F71760 /* welshinpain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshinpain.mp3; path = ../sounds/Welsh/welshinpain.mp3; sourceTree = "<group>"; };
+		BB50F9791D13EA1A00F71760 /* welshitchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshitchy.mp3; path = ../sounds/Welsh/welshitchy.mp3; sourceTree = "<group>"; };
+		BB50F97A1D13EA1A00F71760 /* welshknee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshknee.mp3; path = ../sounds/Welsh/welshknee.mp3; sourceTree = "<group>"; };
+		BB50F97B1D13EA1A00F71760 /* welshlanguage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshlanguage.mp3; path = ../sounds/Welsh/welshlanguage.mp3; sourceTree = "<group>"; };
+		BB50F97C1D13EA1A00F71760 /* welshlowerarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshlowerarm.mp3; path = ../sounds/Welsh/welshlowerarm.mp3; sourceTree = "<group>"; };
+		BB50F97D1D13EA1A00F71760 /* welshlowerleg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshlowerleg.mp3; path = ../sounds/Welsh/welshlowerleg.mp3; sourceTree = "<group>"; };
+		BB50F97E1D13EA1A00F71760 /* welshmouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshmouth.mp3; path = ../sounds/Welsh/welshmouth.mp3; sourceTree = "<group>"; };
+		BB50F97F1D13EA1A00F71760 /* welshneck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshneck.mp3; path = ../sounds/Welsh/welshneck.mp3; sourceTree = "<group>"; };
+		BB50F9801D13EA1A00F71760 /* welshno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshno.mp3; path = ../sounds/Welsh/welshno.mp3; sourceTree = "<group>"; };
+		BB50F9811D13EA1A00F71760 /* welshnose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshnose.mp3; path = ../sounds/Welsh/welshnose.mp3; sourceTree = "<group>"; };
+		BB50F9821D13EA1A00F71760 /* welshnumb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshnumb.mp3; path = ../sounds/Welsh/welshnumb.mp3; sourceTree = "<group>"; };
+		BB50F9831D13EA1A00F71760 /* welshpenis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshpenis.mp3; path = ../sounds/Welsh/welshpenis.mp3; sourceTree = "<group>"; };
+		BB50F9841D13EA1A00F71760 /* welshpinsneedles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshpinsneedles.mp3; path = ../sounds/Welsh/welshpinsneedles.mp3; sourceTree = "<group>"; };
+		BB50F9851D13EA1A00F71760 /* welshplaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshplaster.mp3; path = ../sounds/Welsh/welshplaster.mp3; sourceTree = "<group>"; };
+		BB50F9861D13EA1A00F71760 /* welshribs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshribs.mp3; path = ../sounds/Welsh/welshribs.mp3; sourceTree = "<group>"; };
+		BB50F9871D13EA1A00F71760 /* welshshoulder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshshoulder.mp3; path = ../sounds/Welsh/welshshoulder.mp3; sourceTree = "<group>"; };
+		BB50F9881D13EA1A00F71760 /* welshshowmewhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshshowmewhere.mp3; path = ../sounds/Welsh/welshshowmewhere.mp3; sourceTree = "<group>"; };
+		BB50F9891D13EA1A00F71760 /* welshsick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshsick.mp3; path = ../sounds/Welsh/welshsick.mp3; sourceTree = "<group>"; };
+		BB50F98A1D13EA1A00F71760 /* welshtesticles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshtesticles.mp3; path = ../sounds/Welsh/welshtesticles.mp3; sourceTree = "<group>"; };
+		BB50F98B1D13EA1A00F71760 /* welshthigh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshthigh.mp3; path = ../sounds/Welsh/welshthigh.mp3; sourceTree = "<group>"; };
+		BB50F98C1D13EA1A00F71760 /* welshtingling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshtingling.mp3; path = ../sounds/Welsh/welshtingling.mp3; sourceTree = "<group>"; };
+		BB50F98D1D13EA1A00F71760 /* welshtoes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshtoes.mp3; path = ../sounds/Welsh/welshtoes.mp3; sourceTree = "<group>"; };
+		BB50F98E1D13EA1A00F71760 /* welshtummy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshtummy.mp3; path = ../sounds/Welsh/welshtummy.mp3; sourceTree = "<group>"; };
+		BB50F98F1D13EA1A00F71760 /* welshyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = welshyes.mp3; path = ../sounds/Welsh/welshyes.mp3; sourceTree = "<group>"; };
+		BB68BFD51CA29FBB00AC15BC /* RNSound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB68BFE51CA29FC800AC15BC /* libRNSound.a in Frameworks */,
+				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
+				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
+				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
+				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
+				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
+				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
+				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
+				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C302A81ABCB8CE00DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302B61ABCB90400DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302BC1ABCB91800DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302C01ABCB91800DB3ED1 /* libRCTImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302D41ABCB9D200DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302E01ABCB9EE00DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00E356EF1AD99517003FC87E /* SMW_ChildTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* SMW_ChildTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = SMW_ChildTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		139105B71AF99BAD00B5F7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139105C11AF99BAD00B5F7CC /* libRCTSettings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139FDEE71B06529A00C62182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* SMW_Child */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = SMW_Child;
+			sourceTree = "<group>";
+		};
+		146834001AC3E56700842450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146834041AC3E56700842450 /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C398B11ACF4ADC00677621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BB68BFD51CA29FBB00AC15BC /* RNSound.xcodeproj */,
+				146833FF1AC3E56700842450 /* React.xcodeproj */,
+				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
+				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
+				00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */,
+				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
+				00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */,
+				139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */,
+				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
+				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
+				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		832341B11AAA6A8300B99B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832341B51AAA6A8300B99B32 /* libRCTText.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				BB132B851CA406D700F893D3 /* AG Book Rounded Regular.otf */,
+				BB68BFE61CA2BBE200AC15BC /* Sounds */,
+				13B07FAE1A68108700A75B9A /* SMW_Child */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* SMW_ChildTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* SMW_Child.app */,
+				00E356EE1AD99517003FC87E /* SMW_ChildTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB50F4F71D13E8EC00F71760 /* Arabic */ = {
+			isa = PBXGroup;
+			children = (
+				BB50F7631D13E9D700F71760 /* arabicache.mp3 */,
+				BB50F7641D13E9D700F71760 /* arabicback.mp3 */,
+				BB50F7651D13E9D700F71760 /* arabicbadtaste.mp3 */,
+				BB50F7661D13E9D700F71760 /* arabicbottom.mp3 */,
+				BB50F7671D13E9D700F71760 /* arabicboysprivates.mp3 */,
+				BB50F7681D13E9D700F71760 /* arabicbreast.mp3 */,
+				BB50F7691D13E9D700F71760 /* arabiccannotfeel.mp3 */,
+				BB50F76A1D13E9D700F71760 /* arabicchest.mp3 */,
+				BB50F76B1D13E9D700F71760 /* arabiccold.mp3 */,
+				BB50F76C1D13E9D700F71760 /* arabiccramps.mp3 */,
+				BB50F76D1D13E9D700F71760 /* arabicdizzy.mp3 */,
+				BB50F76E1D13E9D700F71760 /* arabicdrowsy.mp3 */,
+				BB50F76F1D13E9D700F71760 /* arabicear.mp3 */,
+				BB50F7701D13E9D700F71760 /* arabicelbow.mp3 */,
+				BB50F7711D13E9D700F71760 /* arabiceyeproblems.mp3 */,
+				BB50F7721D13E9D700F71760 /* arabiceyes.mp3 */,
+				BB50F7731D13E9D700F71760 /* arabicfaint.mp3 */,
+				BB50F7741D13E9D700F71760 /* arabicfemalegenitals.mp3 */,
+				BB50F7751D13E9D700F71760 /* arabicfingers.mp3 */,
+				BB50F7761D13E9D700F71760 /* arabicfront.mp3 */,
+				BB50F7771D13E9D700F71760 /* arabicgirlsprivates.mp3 */,
+				BB50F7781D13E9D700F71760 /* arabicgreeting.mp3 */,
+				BB50F7791D13E9D700F71760 /* arabicgroin.mp3 */,
+				BB50F77A1D13E9D700F71760 /* arabichand.mp3 */,
+				BB50F77B1D13E9D700F71760 /* arabichead.mp3 */,
+				BB50F77C1D13E9D700F71760 /* arabicheart.mp3 */,
+				BB50F77D1D13E9D700F71760 /* arabichot.mp3 */,
+				BB50F77E1D13E9D700F71760 /* arabichowyoufeel.mp3 */,
+				BB50F77F1D13E9D700F71760 /* arabicinpain.mp3 */,
+				BB50F7801D13E9D700F71760 /* arabicitchy.mp3 */,
+				BB50F7811D13E9D700F71760 /* arabicknee.mp3 */,
+				BB50F7821D13E9D700F71760 /* arabiclanguage.mp3 */,
+				BB50F7831D13E9D700F71760 /* arabiclowerarm.mp3 */,
+				BB50F7841D13E9D700F71760 /* arabiclowerleg.mp3 */,
+				BB50F7851D13E9D700F71760 /* arabicmouth.mp3 */,
+				BB50F7861D13E9D700F71760 /* arabicneck.mp3 */,
+				BB50F7871D13E9D700F71760 /* arabicno.mp3 */,
+				BB50F7881D13E9D700F71760 /* arabicnose.mp3 */,
+				BB50F7891D13E9D700F71760 /* arabicnumb.mp3 */,
+				BB50F78A1D13E9D700F71760 /* arabicpenis.mp3 */,
+				BB50F78B1D13E9D700F71760 /* arabicpinsneedles.mp3 */,
+				BB50F78C1D13E9D700F71760 /* arabicplaster.mp3 */,
+				BB50F78D1D13E9D700F71760 /* arabicribs.mp3 */,
+				BB50F78E1D13E9D700F71760 /* arabicshoulder.mp3 */,
+				BB50F78F1D13E9D700F71760 /* arabicshowmewhere.mp3 */,
+				BB50F7901D13E9D700F71760 /* arabicsick.mp3 */,
+				BB50F7911D13E9D700F71760 /* arabictesticles.mp3 */,
+				BB50F7921D13E9D700F71760 /* arabicthigh.mp3 */,
+				BB50F7931D13E9D700F71760 /* arabictingling.mp3 */,
+				BB50F7941D13E9D700F71760 /* arabictoes.mp3 */,
+				BB50F7951D13E9D700F71760 /* arabictummy.mp3 */,
+				BB50F7961D13E9D700F71760 /* arabicyes.mp3 */,
+			);
+			name = Arabic;
+			sourceTree = "<group>";
+		};
+		BB50F4F81D13E8F300F71760 /* Bengali */ = {
+			isa = PBXGroup;
+			children = (
+				BB50F7CB1D13E9E200F71760 /* bengaliache.mp3 */,
+				BB50F7CC1D13E9E200F71760 /* bengaliback.mp3 */,
+				BB50F7CD1D13E9E200F71760 /* bengalibadtaste.mp3 */,
+				BB50F7CE1D13E9E200F71760 /* bengalibottom.mp3 */,
+				BB50F7CF1D13E9E200F71760 /* bengaliboysprivates.mp3 */,
+				BB50F7D01D13E9E200F71760 /* bengalibreast.mp3 */,
+				BB50F7D11D13E9E200F71760 /* bengalicannotfeel.mp3 */,
+				BB50F7D21D13E9E200F71760 /* bengalichest.mp3 */,
+				BB50F7D31D13E9E200F71760 /* bengalicold.mp3 */,
+				BB50F7D41D13E9E200F71760 /* bengalicramps.mp3 */,
+				BB50F7D51D13E9E200F71760 /* bengalidizzy.mp3 */,
+				BB50F7D61D13E9E200F71760 /* bengalidrowsy.mp3 */,
+				BB50F7D71D13E9E200F71760 /* bengaliear.mp3 */,
+				BB50F7D81D13E9E200F71760 /* bengalielbow.mp3 */,
+				BB50F7D91D13E9E200F71760 /* bengalieyeproblems.mp3 */,
+				BB50F7DA1D13E9E200F71760 /* bengalieyes.mp3 */,
+				BB50F7DB1D13E9E200F71760 /* bengalifaint.mp3 */,
+				BB50F7DC1D13E9E200F71760 /* bengalifemalegenitals.mp3 */,
+				BB50F7DD1D13E9E200F71760 /* bengalifingers.mp3 */,
+				BB50F7DE1D13E9E200F71760 /* bengaligirlsprivates.mp3 */,
+				BB50F7DF1D13E9E200F71760 /* bengaligreeting.mp3 */,
+				BB50F7E01D13E9E200F71760 /* bengaligroin.mp3 */,
+				BB50F7E11D13E9E200F71760 /* bengalihand.mp3 */,
+				BB50F7E21D13E9E200F71760 /* bengalihead.mp3 */,
+				BB50F7E31D13E9E200F71760 /* bengaliheart.mp3 */,
+				BB50F7E41D13E9E200F71760 /* bengalihot.mp3 */,
+				BB50F7E51D13E9E200F71760 /* bengalihowyoufeel.mp3 */,
+				BB50F7E61D13E9E200F71760 /* bengaliinpain.mp3 */,
+				BB50F7E71D13E9E200F71760 /* bengaliitchy.mp3 */,
+				BB50F7E81D13E9E200F71760 /* bengaliknee.mp3 */,
+				BB50F7E91D13E9E200F71760 /* bengalilanguage.mp3 */,
+				BB50F7EA1D13E9E200F71760 /* bengalilowerarm.mp3 */,
+				BB50F7EB1D13E9E200F71760 /* bengalilowerleg.mp3 */,
+				BB50F7EC1D13E9E200F71760 /* bengalimouth.mp3 */,
+				BB50F7ED1D13E9E200F71760 /* bengalineck.mp3 */,
+				BB50F7EE1D13E9E200F71760 /* bengalino.mp3 */,
+				BB50F7EF1D13E9E200F71760 /* bengalinose.mp3 */,
+				BB50F7F01D13E9E200F71760 /* bengalinumb.mp3 */,
+				BB50F7F11D13E9E200F71760 /* bengalipenis.mp3 */,
+				BB50F7F21D13E9E200F71760 /* bengalipinsneedles.mp3 */,
+				BB50F7F31D13E9E200F71760 /* bengaliplaster.mp3 */,
+				BB50F7F41D13E9E200F71760 /* bengaliribs.mp3 */,
+				BB50F7F51D13E9E200F71760 /* bengalishoulder.mp3 */,
+				BB50F7F61D13E9E200F71760 /* bengalishowmewhere.mp3 */,
+				BB50F7F71D13E9E200F71760 /* bengalisick.mp3 */,
+				BB50F7F81D13E9E200F71760 /* bengalitesticles.mp3 */,
+				BB50F7F91D13E9E200F71760 /* bengalithigh.mp3 */,
+				BB50F7FA1D13E9E200F71760 /* bengalitingling.mp3 */,
+				BB50F7FB1D13E9E200F71760 /* bengalitoes.mp3 */,
+				BB50F7FC1D13E9E200F71760 /* bengalitummy.mp3 */,
+				BB50F7FD1D13E9E200F71760 /* bengaliyes.mp3 */,
+			);
+			name = Bengali;
+			sourceTree = "<group>";
+		};
+		BB50F4F91D13E8F900F71760 /* Polish */ = {
+			isa = PBXGroup;
+			children = (
+				BB50F8311D13E9EE00F71760 /* polishache.mp3 */,
+				BB50F8321D13E9EE00F71760 /* polishback.mp3 */,
+				BB50F8331D13E9EE00F71760 /* polishbadtaste.mp3 */,
+				BB50F8341D13E9EE00F71760 /* polishbottom.mp3 */,
+				BB50F8351D13E9EE00F71760 /* polishboysprivates.mp3 */,
+				BB50F8361D13E9EE00F71760 /* polishbreast.mp3 */,
+				BB50F8371D13E9EE00F71760 /* polishcannotfeel.mp3 */,
+				BB50F8381D13E9EE00F71760 /* polishchest.mp3 */,
+				BB50F8391D13E9EE00F71760 /* polishcold.mp3 */,
+				BB50F83A1D13E9EE00F71760 /* polishcramps.mp3 */,
+				BB50F83B1D13E9EE00F71760 /* polishdizzy.mp3 */,
+				BB50F83C1D13E9EE00F71760 /* polishdrowsy.mp3 */,
+				BB50F83D1D13E9EE00F71760 /* polishear.mp3 */,
+				BB50F83E1D13E9EE00F71760 /* polishelbow.mp3 */,
+				BB50F83F1D13E9EE00F71760 /* polisheyeproblems.mp3 */,
+				BB50F8401D13E9EE00F71760 /* polisheyes.mp3 */,
+				BB50F8411D13E9EE00F71760 /* polishfaint.mp3 */,
+				BB50F8421D13E9EE00F71760 /* polishfemalegenitals.mp3 */,
+				BB50F8431D13E9EE00F71760 /* polishfingers.mp3 */,
+				BB50F8441D13E9EE00F71760 /* polishgirlsprivates.mp3 */,
+				BB50F8451D13E9EE00F71760 /* polishgreeting.mp3 */,
+				BB50F8461D13E9EE00F71760 /* polishgroin.mp3 */,
+				BB50F8471D13E9EE00F71760 /* polishhand.mp3 */,
+				BB50F8481D13E9EE00F71760 /* polishhead.mp3 */,
+				BB50F8491D13E9EE00F71760 /* polishheart.mp3 */,
+				BB50F84A1D13E9EE00F71760 /* polishhot.mp3 */,
+				BB50F84B1D13E9EE00F71760 /* polishhowyoufeel.mp3 */,
+				BB50F84C1D13E9EE00F71760 /* polishinpain.mp3 */,
+				BB50F84D1D13E9EE00F71760 /* polishitchy.mp3 */,
+				BB50F84E1D13E9EE00F71760 /* polishknee.mp3 */,
+				BB50F84F1D13E9EE00F71760 /* polishlanguage.mp3 */,
+				BB50F8501D13E9EE00F71760 /* polishlowerarm.mp3 */,
+				BB50F8511D13E9EE00F71760 /* polishlowerleg.mp3 */,
+				BB50F8521D13E9EE00F71760 /* polishmouth.mp3 */,
+				BB50F8531D13E9EE00F71760 /* polishneck.mp3 */,
+				BB50F8541D13E9EE00F71760 /* polishno.mp3 */,
+				BB50F8551D13E9EE00F71760 /* polishnose.mp3 */,
+				BB50F8561D13E9EE00F71760 /* polishnumb.mp3 */,
+				BB50F8571D13E9EE00F71760 /* polishpenis.mp3 */,
+				BB50F8581D13E9EE00F71760 /* polishplaster.mp3 */,
+				BB50F8591D13E9EE00F71760 /* polishribs.mp3 */,
+				BB50F85A1D13E9EE00F71760 /* polishshoulder.mp3 */,
+				BB50F85B1D13E9EE00F71760 /* polishshowmewhere.mp3 */,
+				BB50F85C1D13E9EE00F71760 /* polishsick.mp3 */,
+				BB50F85D1D13E9EE00F71760 /* polishtesticles.mp3 */,
+				BB50F85E1D13E9EE00F71760 /* polishthigh.mp3 */,
+				BB50F85F1D13E9EE00F71760 /* polishtingling.mp3 */,
+				BB50F8601D13E9EE00F71760 /* polishtoes.mp3 */,
+				BB50F8611D13E9EE00F71760 /* polishtummy.mp3 */,
+				BB50F8621D13E9EE00F71760 /* polishyes.mp3 */,
+			);
+			name = Polish;
+			sourceTree = "<group>";
+		};
+		BB50F4FA1D13E90300F71760 /* Somali */ = {
+			isa = PBXGroup;
+			children = (
+				BB50F8951D13E9FA00F71760 /* somaliache.mp3 */,
+				BB50F8961D13E9FA00F71760 /* somaliback.mp3 */,
+				BB50F8971D13E9FA00F71760 /* somalibadtaste.mp3 */,
+				BB50F8981D13E9FA00F71760 /* somalibottom.mp3 */,
+				BB50F8991D13E9FA00F71760 /* somaliboysprivates.mp3 */,
+				BB50F89A1D13E9FA00F71760 /* somalibreast.mp3 */,
+				BB50F89B1D13E9FA00F71760 /* somalicannotfeel.mp3 */,
+				BB50F89C1D13E9FA00F71760 /* somalichest.mp3 */,
+				BB50F89D1D13E9FA00F71760 /* somalicold.mp3 */,
+				BB50F89E1D13E9FA00F71760 /* somalicramps.mp3 */,
+				BB50F89F1D13E9FA00F71760 /* somalidizzy.mp3 */,
+				BB50F8A01D13E9FA00F71760 /* somalidrowsy.mp3 */,
+				BB50F8A11D13E9FA00F71760 /* somaliear.mp3 */,
+				BB50F8A21D13E9FA00F71760 /* somalielbow.mp3 */,
+				BB50F8A31D13E9FA00F71760 /* somalieyeproblems.mp3 */,
+				BB50F8A41D13E9FA00F71760 /* somalieyes.mp3 */,
+				BB50F8A51D13E9FA00F71760 /* somalifaint.mp3 */,
+				BB50F8A61D13E9FA00F71760 /* somalifemalegenitals.mp3 */,
+				BB50F8A71D13E9FA00F71760 /* somalifingers.mp3 */,
+				BB50F8A81D13E9FA00F71760 /* somaligirlsprivates.mp3 */,
+				BB50F8A91D13E9FA00F71760 /* somaligreeting.mp3 */,
+				BB50F8AA1D13E9FA00F71760 /* somaligroin.mp3 */,
+				BB50F8AB1D13E9FA00F71760 /* somalihand.mp3 */,
+				BB50F8AC1D13E9FA00F71760 /* somalihead.mp3 */,
+				BB50F8AD1D13E9FA00F71760 /* somaliheart.mp3 */,
+				BB50F8AE1D13E9FA00F71760 /* somalihot.mp3 */,
+				BB50F8AF1D13E9FA00F71760 /* somalihowyoufeel.mp3 */,
+				BB50F8B01D13E9FA00F71760 /* somaliinpain.mp3 */,
+				BB50F8B11D13E9FA00F71760 /* somaliitchy.mp3 */,
+				BB50F8B21D13E9FA00F71760 /* somaliknee.mp3 */,
+				BB50F8B31D13E9FA00F71760 /* somalilanguage.mp3 */,
+				BB50F8B41D13E9FA00F71760 /* somalilowerarm.mp3 */,
+				BB50F8B51D13E9FA00F71760 /* somalilowerleg.mp3 */,
+				BB50F8B61D13E9FA00F71760 /* somalimouth.mp3 */,
+				BB50F8B71D13E9FA00F71760 /* somalineck.mp3 */,
+				BB50F8B81D13E9FA00F71760 /* somalino.mp3 */,
+				BB50F8B91D13E9FA00F71760 /* somalinose.mp3 */,
+				BB50F8BA1D13E9FA00F71760 /* somalinumb.mp3 */,
+				BB50F8BB1D13E9FA00F71760 /* somalipenis.mp3 */,
+				BB50F8BC1D13E9FA00F71760 /* somaliplaster.mp3 */,
+				BB50F8BD1D13E9FA00F71760 /* somaliribs.mp3 */,
+				BB50F8BE1D13E9FA00F71760 /* somalishoulder.mp3 */,
+				BB50F8BF1D13E9FA00F71760 /* somalishowmewhere.mp3 */,
+				BB50F8C01D13E9FA00F71760 /* somalitesticles.mp3 */,
+				BB50F8C11D13E9FA00F71760 /* somalithigh.mp3 */,
+				BB50F8C21D13E9FA00F71760 /* somalitingling.mp3 */,
+				BB50F8C31D13E9FA00F71760 /* somalitoes.mp3 */,
+				BB50F8C41D13E9FA00F71760 /* somalitummy.mp3 */,
+				BB50F8C51D13E9FA00F71760 /* somaliyes.mp3 */,
+			);
+			name = Somali;
+			sourceTree = "<group>";
+		};
+		BB50F4FB1D13E90A00F71760 /* Urdu */ = {
+			isa = PBXGroup;
+			children = (
+				BB50F8F71D13EA0D00F71760 /* urduache.mp3 */,
+				BB50F8F81D13EA0D00F71760 /* urduback.mp3 */,
+				BB50F8F91D13EA0D00F71760 /* urdubadtaste.mp3 */,
+				BB50F8FA1D13EA0D00F71760 /* urdubottom.mp3 */,
+				BB50F8FB1D13EA0D00F71760 /* urduboysprivates.mp3 */,
+				BB50F8FC1D13EA0D00F71760 /* urdubreast.mp3 */,
+				BB50F8FD1D13EA0D00F71760 /* urducannotfeel.mp3 */,
+				BB50F8FE1D13EA0D00F71760 /* urduchest.mp3 */,
+				BB50F8FF1D13EA0D00F71760 /* urducold.mp3 */,
+				BB50F9001D13EA0D00F71760 /* urducramps.mp3 */,
+				BB50F9011D13EA0D00F71760 /* urdudizzy.mp3 */,
+				BB50F9021D13EA0D00F71760 /* urdudrowsy.mp3 */,
+				BB50F9031D13EA0D00F71760 /* urduear.mp3 */,
+				BB50F9041D13EA0D00F71760 /* urduelbow.mp3 */,
+				BB50F9051D13EA0D00F71760 /* urdueyeproblems.mp3 */,
+				BB50F9061D13EA0D00F71760 /* urdueyes.mp3 */,
+				BB50F9071D13EA0D00F71760 /* urdufaint.mp3 */,
+				BB50F9081D13EA0D00F71760 /* urdufemalegenitals.mp3 */,
+				BB50F9091D13EA0D00F71760 /* urdufingers.mp3 */,
+				BB50F90A1D13EA0D00F71760 /* urdugirlsprivates.mp3 */,
+				BB50F90B1D13EA0D00F71760 /* urdugreeting.mp3 */,
+				BB50F90C1D13EA0D00F71760 /* urdugroin.mp3 */,
+				BB50F90D1D13EA0D00F71760 /* urduhand.mp3 */,
+				BB50F90E1D13EA0D00F71760 /* urduhead.mp3 */,
+				BB50F90F1D13EA0D00F71760 /* urduheart.mp3 */,
+				BB50F9101D13EA0D00F71760 /* urduhot.mp3 */,
+				BB50F9111D13EA0D00F71760 /* urduhowyoufeel.mp3 */,
+				BB50F9121D13EA0D00F71760 /* urduinpain.mp3 */,
+				BB50F9131D13EA0D00F71760 /* urduitchy.mp3 */,
+				BB50F9141D13EA0D00F71760 /* urduknee.mp3 */,
+				BB50F9151D13EA0D00F71760 /* urdulanguage.mp3 */,
+				BB50F9161D13EA0D00F71760 /* urdulowerarm.mp3 */,
+				BB50F9171D13EA0D00F71760 /* urdulowerleg.mp3 */,
+				BB50F9181D13EA0D00F71760 /* urdumouth.mp3 */,
+				BB50F9191D13EA0D00F71760 /* urduneck.mp3 */,
+				BB50F91A1D13EA0D00F71760 /* urduno.mp3 */,
+				BB50F91B1D13EA0D00F71760 /* urdunose.mp3 */,
+				BB50F91C1D13EA0D00F71760 /* urdunumb.mp3 */,
+				BB50F91D1D13EA0D00F71760 /* urdupenis.mp3 */,
+				BB50F91E1D13EA0D00F71760 /* urdupinsneedles.mp3 */,
+				BB50F91F1D13EA0D00F71760 /* urduplaster.mp3 */,
+				BB50F9201D13EA0D00F71760 /* urduribs.mp3 */,
+				BB50F9211D13EA0D00F71760 /* urdushoulder.mp3 */,
+				BB50F9221D13EA0D00F71760 /* urdushowmewhere.mp3 */,
+				BB50F9231D13EA0D00F71760 /* urdusick.mp3 */,
+				BB50F9241D13EA0D00F71760 /* urdutesticles.mp3 */,
+				BB50F9251D13EA0D00F71760 /* urduthigh.mp3 */,
+				BB50F9261D13EA0D00F71760 /* urdutingling.mp3 */,
+				BB50F9271D13EA0D00F71760 /* urdutoes.mp3 */,
+				BB50F9281D13EA0D00F71760 /* urdutummy.mp3 */,
+				BB50F9291D13EA0D00F71760 /* urduyes.mp3 */,
+			);
+			name = Urdu;
+			sourceTree = "<group>";
+		};
+		BB50F4FC1D13E91000F71760 /* Welsh */ = {
+			isa = PBXGroup;
+			children = (
+				BB50F95D1D13EA1A00F71760 /* welshache.mp3 */,
+				BB50F95E1D13EA1A00F71760 /* welshback.mp3 */,
+				BB50F95F1D13EA1A00F71760 /* welshbadtaste.mp3 */,
+				BB50F9601D13EA1A00F71760 /* welshbottom.mp3 */,
+				BB50F9611D13EA1A00F71760 /* welshboysprivates.mp3 */,
+				BB50F9621D13EA1A00F71760 /* welshbreast.mp3 */,
+				BB50F9631D13EA1A00F71760 /* welshcannotfeel.mp3 */,
+				BB50F9641D13EA1A00F71760 /* welshchest.mp3 */,
+				BB50F9651D13EA1A00F71760 /* welshcold.mp3 */,
+				BB50F9661D13EA1A00F71760 /* welshcramps.mp3 */,
+				BB50F9671D13EA1A00F71760 /* welshdizzy.mp3 */,
+				BB50F9681D13EA1A00F71760 /* welshdrowsy.mp3 */,
+				BB50F9691D13EA1A00F71760 /* welshear.mp3 */,
+				BB50F96A1D13EA1A00F71760 /* welshelbow.mp3 */,
+				BB50F96B1D13EA1A00F71760 /* welsheyeproblems.mp3 */,
+				BB50F96C1D13EA1A00F71760 /* welsheyes.mp3 */,
+				BB50F96D1D13EA1A00F71760 /* welshfaint.mp3 */,
+				BB50F96E1D13EA1A00F71760 /* welshfemalegenitals.mp3 */,
+				BB50F96F1D13EA1A00F71760 /* welshfingers.mp3 */,
+				BB50F9701D13EA1A00F71760 /* welshgirlsprivates.mp3 */,
+				BB50F9711D13EA1A00F71760 /* welshgreeting.mp3 */,
+				BB50F9721D13EA1A00F71760 /* welshgroin.mp3 */,
+				BB50F9731D13EA1A00F71760 /* welshhand.mp3 */,
+				BB50F9741D13EA1A00F71760 /* welshhead.mp3 */,
+				BB50F9751D13EA1A00F71760 /* welshheart.mp3 */,
+				BB50F9761D13EA1A00F71760 /* welshhot.mp3 */,
+				BB50F9771D13EA1A00F71760 /* welshhowyoufeel.mp3 */,
+				BB50F9781D13EA1A00F71760 /* welshinpain.mp3 */,
+				BB50F9791D13EA1A00F71760 /* welshitchy.mp3 */,
+				BB50F97A1D13EA1A00F71760 /* welshknee.mp3 */,
+				BB50F97B1D13EA1A00F71760 /* welshlanguage.mp3 */,
+				BB50F97C1D13EA1A00F71760 /* welshlowerarm.mp3 */,
+				BB50F97D1D13EA1A00F71760 /* welshlowerleg.mp3 */,
+				BB50F97E1D13EA1A00F71760 /* welshmouth.mp3 */,
+				BB50F97F1D13EA1A00F71760 /* welshneck.mp3 */,
+				BB50F9801D13EA1A00F71760 /* welshno.mp3 */,
+				BB50F9811D13EA1A00F71760 /* welshnose.mp3 */,
+				BB50F9821D13EA1A00F71760 /* welshnumb.mp3 */,
+				BB50F9831D13EA1A00F71760 /* welshpenis.mp3 */,
+				BB50F9841D13EA1A00F71760 /* welshpinsneedles.mp3 */,
+				BB50F9851D13EA1A00F71760 /* welshplaster.mp3 */,
+				BB50F9861D13EA1A00F71760 /* welshribs.mp3 */,
+				BB50F9871D13EA1A00F71760 /* welshshoulder.mp3 */,
+				BB50F9881D13EA1A00F71760 /* welshshowmewhere.mp3 */,
+				BB50F9891D13EA1A00F71760 /* welshsick.mp3 */,
+				BB50F98A1D13EA1A00F71760 /* welshtesticles.mp3 */,
+				BB50F98B1D13EA1A00F71760 /* welshthigh.mp3 */,
+				BB50F98C1D13EA1A00F71760 /* welshtingling.mp3 */,
+				BB50F98D1D13EA1A00F71760 /* welshtoes.mp3 */,
+				BB50F98E1D13EA1A00F71760 /* welshtummy.mp3 */,
+				BB50F98F1D13EA1A00F71760 /* welshyes.mp3 */,
+			);
+			name = Welsh;
+			sourceTree = "<group>";
+		};
+		BB68BFD61CA29FBB00AC15BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB68BFE41CA29FBB00AC15BC /* libRNSound.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB68BFE61CA2BBE200AC15BC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BB50F4FC1D13E91000F71760 /* Welsh */,
+				BB50F4FB1D13E90A00F71760 /* Urdu */,
+				BB50F4FA1D13E90300F71760 /* Somali */,
+				BB50F4F91D13E8F900F71760 /* Polish */,
+				BB50F4F81D13E8F300F71760 /* Bengali */,
+				BB50F4F71D13E8EC00F71760 /* Arabic */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* SMW_ChildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SMW_ChildTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = SMW_ChildTests;
+			productName = SMW_ChildTests;
+			productReference = 00E356EE1AD99517003FC87E /* SMW_ChildTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* SMW_Child */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SMW_Child" */;
+			buildPhases = (
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMW_Child;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* SMW_Child.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 99SG7NKGV3;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SMW_Child" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
+					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
+					ProjectRef = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302BC1ABCB91800DB3ED1 /* Products */;
+					ProjectRef = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = 78C398B11ACF4ADC00677621 /* Products */;
+					ProjectRef = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302D41ABCB9D200DB3ED1 /* Products */;
+					ProjectRef = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = 139105B71AF99BAD00B5F7CC /* Products */;
+					ProjectRef = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+				},
+				{
+					ProductGroup = 832341B11AAA6A8300B99B32 /* Products */;
+					ProjectRef = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302E01ABCB9EE00DB3ED1 /* Products */;
+					ProjectRef = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
+				},
+				{
+					ProductGroup = 139FDEE71B06529A00C62182 /* Products */;
+					ProjectRef = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = 146834001AC3E56700842450 /* Products */;
+					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = BB68BFD61CA29FBB00AC15BC /* Products */;
+					ProjectRef = BB68BFD51CA29FBB00AC15BC /* RNSound.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* SMW_Child */,
+				00E356ED1AD99517003FC87E /* SMW_ChildTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTActionSheet.a;
+			remoteRef = 00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGeolocation.a;
+			remoteRef = 00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302C01ABCB91800DB3ED1 /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = 00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = 00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVibration.a;
+			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTSettings.a;
+			remoteRef = 139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		139FDEF41B06529B00C62182 /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = 139FDEF31B06529B00C62182 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		146834041AC3E56700842450 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB68BFE41CA29FBB00AC15BC /* libRNSound.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSound.a;
+			remoteRef = BB68BFE31CA29FBB00AC15BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB50F9B81D13EA1A00F71760 /* welshplaster.mp3 in Resources */,
+				BB50F87E1D13E9EE00F71760 /* polishinpain.mp3 in Resources */,
+				BB50F8081D13E9E200F71760 /* bengalidizzy.mp3 in Resources */,
+				BB50F8651D13E9EE00F71760 /* polishbadtaste.mp3 in Resources */,
+				BB50F8D11D13E9FA00F71760 /* somalidrowsy.mp3 in Resources */,
+				BB50F99E1D13EA1A00F71760 /* welsheyeproblems.mp3 in Resources */,
+				BB132B861CA406D800F893D3 /* AG Book Rounded Regular.otf in Resources */,
+				BB50F8E21D13E9FA00F71760 /* somaliitchy.mp3 in Resources */,
+				BB50F8061D13E9E200F71760 /* bengalicold.mp3 in Resources */,
+				BB50F9BA1D13EA1A00F71760 /* welshshoulder.mp3 in Resources */,
+				BB50F9421D13EA0D00F71760 /* urduheart.mp3 in Resources */,
+				BB50F7A61D13E9D700F71760 /* arabiceyes.mp3 in Resources */,
+				BB50F7B91D13E9D700F71760 /* arabicmouth.mp3 in Resources */,
+				BB50F8031D13E9E200F71760 /* bengalibreast.mp3 in Resources */,
+				BB50F86C1D13E9EE00F71760 /* polishcramps.mp3 in Resources */,
+				BB50F8E61D13E9FA00F71760 /* somalilowerleg.mp3 in Resources */,
+				BB50F7C31D13E9D700F71760 /* arabicshowmewhere.mp3 in Resources */,
+				BB50F9AE1D13EA1A00F71760 /* welshlanguage.mp3 in Resources */,
+				BB50F79E1D13E9D700F71760 /* arabicchest.mp3 in Resources */,
+				BB50F9311D13EA0D00F71760 /* urduchest.mp3 in Resources */,
+				BB50F8871D13E9EE00F71760 /* polishnose.mp3 in Resources */,
+				BB50F9301D13EA0D00F71760 /* urducannotfeel.mp3 in Resources */,
+				BB50F8731D13E9EE00F71760 /* polishfaint.mp3 in Resources */,
+				BB50F79B1D13E9D700F71760 /* arabicboysprivates.mp3 in Resources */,
+				BB50F86D1D13E9EE00F71760 /* polishdizzy.mp3 in Resources */,
+				BB50F9571D13EA0D00F71760 /* urdutesticles.mp3 in Resources */,
+				BB50F9991D13EA1A00F71760 /* welshcramps.mp3 in Resources */,
+				BB50F7FF1D13E9E200F71760 /* bengaliback.mp3 in Resources */,
+				BB50F79C1D13E9D700F71760 /* arabicbreast.mp3 in Resources */,
+				BB50F9A51D13EA1A00F71760 /* welshgroin.mp3 in Resources */,
+				BB50F9941D13EA1A00F71760 /* welshboysprivates.mp3 in Resources */,
+				BB50F8D71D13E9FA00F71760 /* somalifemalegenitals.mp3 in Resources */,
+				BB50F80B1D13E9E200F71760 /* bengalielbow.mp3 in Resources */,
+				BB50F8811D13E9EE00F71760 /* polishlanguage.mp3 in Resources */,
+				BB50F88D1D13E9EE00F71760 /* polishshowmewhere.mp3 in Resources */,
+				BB50F7B51D13E9D700F71760 /* arabicknee.mp3 in Resources */,
+				BB50F93C1D13EA0D00F71760 /* urdufingers.mp3 in Resources */,
+				BB50F8DF1D13E9FA00F71760 /* somalihot.mp3 in Resources */,
+				BB50F86B1D13E9EE00F71760 /* polishcold.mp3 in Resources */,
+				BB50F9961D13EA1A00F71760 /* welshcannotfeel.mp3 in Resources */,
+				BB50F8301D13E9E200F71760 /* bengaliyes.mp3 in Resources */,
+				BB50F8281D13E9E200F71760 /* bengalishoulder.mp3 in Resources */,
+				BB50F8661D13E9EE00F71760 /* polishbottom.mp3 in Resources */,
+				BB50F9A71D13EA1A00F71760 /* welshhead.mp3 in Resources */,
+				BB50F9581D13EA0D00F71760 /* urduthigh.mp3 in Resources */,
+				BB50F79F1D13E9D700F71760 /* arabiccold.mp3 in Resources */,
+				BB50F81F1D13E9E200F71760 /* bengalimouth.mp3 in Resources */,
+				BB50F81B1D13E9E200F71760 /* bengaliknee.mp3 in Resources */,
+				BB50F8CC1D13E9FA00F71760 /* somalicannotfeel.mp3 in Resources */,
+				BB50F8221D13E9E200F71760 /* bengalinose.mp3 in Resources */,
+				BB50F88F1D13E9EE00F71760 /* polishtesticles.mp3 in Resources */,
+				BB50F8E11D13E9FA00F71760 /* somaliinpain.mp3 in Resources */,
+				BB50F82C1D13E9E200F71760 /* bengalithigh.mp3 in Resources */,
+				BB50F88C1D13E9EE00F71760 /* polishshoulder.mp3 in Resources */,
+				BB50F7A31D13E9D700F71760 /* arabicear.mp3 in Resources */,
+				BB50F7BB1D13E9D700F71760 /* arabicno.mp3 in Resources */,
+				BB50F8121D13E9E200F71760 /* bengaligreeting.mp3 in Resources */,
+				BB50F87A1D13E9EE00F71760 /* polishhead.mp3 in Resources */,
+				BB50F93A1D13EA0D00F71760 /* urdufaint.mp3 in Resources */,
+				BB50F7C61D13E9D700F71760 /* arabicthigh.mp3 in Resources */,
+				BB50F8051D13E9E200F71760 /* bengalichest.mp3 in Resources */,
+				BB50F8751D13E9EE00F71760 /* polishfingers.mp3 in Resources */,
+				BB50F80E1D13E9E200F71760 /* bengalifaint.mp3 in Resources */,
+				BB50F8631D13E9EE00F71760 /* polishache.mp3 in Resources */,
+				BB50F7A91D13E9D700F71760 /* arabicfingers.mp3 in Resources */,
+				BB50F8721D13E9EE00F71760 /* polisheyes.mp3 in Resources */,
+				BB50F87D1D13E9EE00F71760 /* polishhowyoufeel.mp3 in Resources */,
+				BB50F7C81D13E9D700F71760 /* arabictoes.mp3 in Resources */,
+				BB50F8C61D13E9FA00F71760 /* somaliache.mp3 in Resources */,
+				BB50F9531D13EA0D00F71760 /* urduribs.mp3 in Resources */,
+				BB50F7BA1D13E9D700F71760 /* arabicneck.mp3 in Resources */,
+				BB50F8F11D13E9FA00F71760 /* somalitesticles.mp3 in Resources */,
+				BB50F93E1D13EA0D00F71760 /* urdugreeting.mp3 in Resources */,
+				BB50F9B61D13EA1A00F71760 /* welshpenis.mp3 in Resources */,
+				BB50F8251D13E9E200F71760 /* bengalipinsneedles.mp3 in Resources */,
+				BB50F8E51D13E9FA00F71760 /* somalilowerarm.mp3 in Resources */,
+				BB50F9AC1D13EA1A00F71760 /* welshitchy.mp3 in Resources */,
+				BB50F8151D13E9E200F71760 /* bengalihead.mp3 in Resources */,
+				BB50F8E01D13E9FA00F71760 /* somalihowyoufeel.mp3 in Resources */,
+				BB50F9921D13EA1A00F71760 /* welshbadtaste.mp3 in Resources */,
+				BB50F93F1D13EA0D00F71760 /* urdugroin.mp3 in Resources */,
+				BB50F9A91D13EA1A00F71760 /* welshhot.mp3 in Resources */,
+				BB50F8911D13E9EE00F71760 /* polishtingling.mp3 in Resources */,
+				BB50F9391D13EA0D00F71760 /* urdueyes.mp3 in Resources */,
+				BB50F8701D13E9EE00F71760 /* polishelbow.mp3 in Resources */,
+				BB50F9AD1D13EA1A00F71760 /* welshknee.mp3 in Resources */,
+				BB50F99D1D13EA1A00F71760 /* welshelbow.mp3 in Resources */,
+				BB50F9451D13EA0D00F71760 /* urduinpain.mp3 in Resources */,
+				BB50F7C11D13E9D700F71760 /* arabicribs.mp3 in Resources */,
+				BB50F8EA1D13E9FA00F71760 /* somalinose.mp3 in Resources */,
+				BB50F8C71D13E9FA00F71760 /* somaliback.mp3 in Resources */,
+				BB50F8261D13E9E200F71760 /* bengaliplaster.mp3 in Resources */,
+				BB50F9A61D13EA1A00F71760 /* welshhand.mp3 in Resources */,
+				BB50F8041D13E9E200F71760 /* bengalicannotfeel.mp3 in Resources */,
+				BB50F9541D13EA0D00F71760 /* urdushoulder.mp3 in Resources */,
+				BB50F9BB1D13EA1A00F71760 /* welshshowmewhere.mp3 in Resources */,
+				BB50F8001D13E9E200F71760 /* bengalibadtaste.mp3 in Resources */,
+				BB50F9341D13EA0D00F71760 /* urdudizzy.mp3 in Resources */,
+				BB50F7BE1D13E9D700F71760 /* arabicpenis.mp3 in Resources */,
+				BB50F7BC1D13E9D700F71760 /* arabicnose.mp3 in Resources */,
+				BB50F8D21D13E9FA00F71760 /* somaliear.mp3 in Resources */,
+				BB50F8EB1D13E9FA00F71760 /* somalinumb.mp3 in Resources */,
+				BB50F94A1D13EA0D00F71760 /* urdulowerleg.mp3 in Resources */,
+				BB50F8921D13E9EE00F71760 /* polishtoes.mp3 in Resources */,
+				BB50F9B01D13EA1A00F71760 /* welshlowerleg.mp3 in Resources */,
+				BB50F9A21D13EA1A00F71760 /* welshfingers.mp3 in Resources */,
+				BB50F7A11D13E9D700F71760 /* arabicdizzy.mp3 in Resources */,
+				BB50F92E1D13EA0D00F71760 /* urduboysprivates.mp3 in Resources */,
+				BB50F93B1D13EA0D00F71760 /* urdufemalegenitals.mp3 in Resources */,
+				BB50F95C1D13EA0D00F71760 /* urduyes.mp3 in Resources */,
+				BB50F7AC1D13E9D700F71760 /* arabicgreeting.mp3 in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				BB50F9521D13EA0D00F71760 /* urduplaster.mp3 in Resources */,
+				BB50F8E81D13E9FA00F71760 /* somalineck.mp3 in Resources */,
+				BB50F9B51D13EA1A00F71760 /* welshnumb.mp3 in Resources */,
+				BB50F9381D13EA0D00F71760 /* urdueyeproblems.mp3 in Resources */,
+				BB50F8711D13E9EE00F71760 /* polisheyeproblems.mp3 in Resources */,
+				BB50F86A1D13E9EE00F71760 /* polishchest.mp3 in Resources */,
+				BB50F7A71D13E9D700F71760 /* arabicfaint.mp3 in Resources */,
+				BB50F8F61D13E9FA00F71760 /* somaliyes.mp3 in Resources */,
+				BB50F8E71D13E9FA00F71760 /* somalimouth.mp3 in Resources */,
+				BB50F9C11D13EA1A00F71760 /* welshtummy.mp3 in Resources */,
+				BB50F7AF1D13E9D700F71760 /* arabichead.mp3 in Resources */,
+				BB50F7C21D13E9D700F71760 /* arabicshoulder.mp3 in Resources */,
+				BB50F8681D13E9EE00F71760 /* polishbreast.mp3 in Resources */,
+				BB50F8641D13E9EE00F71760 /* polishback.mp3 in Resources */,
+				BB50F99C1D13EA1A00F71760 /* welshear.mp3 in Resources */,
+				BB50F8D91D13E9FA00F71760 /* somaligirlsprivates.mp3 in Resources */,
+				BB50F92C1D13EA0D00F71760 /* urdubadtaste.mp3 in Resources */,
+				BB50F86F1D13E9EE00F71760 /* polishear.mp3 in Resources */,
+				BB50F8D81D13E9FA00F71760 /* somalifingers.mp3 in Resources */,
+				BB50F87F1D13E9EE00F71760 /* polishitchy.mp3 in Resources */,
+				BB50F7AA1D13E9D700F71760 /* arabicfront.mp3 in Resources */,
+				BB50F8C91D13E9FA00F71760 /* somalibottom.mp3 in Resources */,
+				BB50F8EE1D13E9FA00F71760 /* somaliribs.mp3 in Resources */,
+				BB50F8DD1D13E9FA00F71760 /* somalihead.mp3 in Resources */,
+				BB50F8F01D13E9FA00F71760 /* somalishowmewhere.mp3 in Resources */,
+				BB50F8101D13E9E200F71760 /* bengalifingers.mp3 in Resources */,
+				BB50F8D31D13E9FA00F71760 /* somalielbow.mp3 in Resources */,
+				BB50F9B71D13EA1A00F71760 /* welshpinsneedles.mp3 in Resources */,
+				BB50F8841D13E9EE00F71760 /* polishmouth.mp3 in Resources */,
+				BB50F9401D13EA0D00F71760 /* urduhand.mp3 in Resources */,
+				BB50F8131D13E9E200F71760 /* bengaligroin.mp3 in Resources */,
+				BB50F92F1D13EA0D00F71760 /* urdubreast.mp3 in Resources */,
+				BB50F8271D13E9E200F71760 /* bengaliribs.mp3 in Resources */,
+				BB50F8F51D13E9FA00F71760 /* somalitummy.mp3 in Resources */,
+				BB50F8901D13E9EE00F71760 /* polishthigh.mp3 in Resources */,
+				BB50F99B1D13EA1A00F71760 /* welshdrowsy.mp3 in Resources */,
+				BB50F8CF1D13E9FA00F71760 /* somalicramps.mp3 in Resources */,
+				BB50F82D1D13E9E200F71760 /* bengalitingling.mp3 in Resources */,
+				BB50F80C1D13E9E200F71760 /* bengalieyeproblems.mp3 in Resources */,
+				BB50F9461D13EA0D00F71760 /* urduitchy.mp3 in Resources */,
+				BB50F8D61D13E9FA00F71760 /* somalifaint.mp3 in Resources */,
+				BB50F8DB1D13E9FA00F71760 /* somaligroin.mp3 in Resources */,
+				BB50F80F1D13E9E200F71760 /* bengalifemalegenitals.mp3 in Resources */,
+				BB50F7C51D13E9D700F71760 /* arabictesticles.mp3 in Resources */,
+				BB50F9351D13EA0D00F71760 /* urdudrowsy.mp3 in Resources */,
+				BB50F8861D13E9EE00F71760 /* polishno.mp3 in Resources */,
+				BB50F7A81D13E9D700F71760 /* arabicfemalegenitals.mp3 in Resources */,
+				BB50F8761D13E9EE00F71760 /* polishgirlsprivates.mp3 in Resources */,
+				BB50F7B31D13E9D700F71760 /* arabicinpain.mp3 in Resources */,
+				BB50F8021D13E9E200F71760 /* bengaliboysprivates.mp3 in Resources */,
+				BB50F7B01D13E9D700F71760 /* arabicheart.mp3 in Resources */,
+				BB50F7C01D13E9D700F71760 /* arabicplaster.mp3 in Resources */,
+				BB50F99F1D13EA1A00F71760 /* welsheyes.mp3 in Resources */,
+				BB50F9A31D13EA1A00F71760 /* welshgirlsprivates.mp3 in Resources */,
+				BB50F8E91D13E9FA00F71760 /* somalino.mp3 in Resources */,
+				BB50F8191D13E9E200F71760 /* bengaliinpain.mp3 in Resources */,
+				BB50F99A1D13EA1A00F71760 /* welshdizzy.mp3 in Resources */,
+				BB50F8DC1D13E9FA00F71760 /* somalihand.mp3 in Resources */,
+				BB50F94E1D13EA0D00F71760 /* urdunose.mp3 in Resources */,
+				BB50F88A1D13E9EE00F71760 /* polishplaster.mp3 in Resources */,
+				BB50F9321D13EA0D00F71760 /* urducold.mp3 in Resources */,
+				BB50F8F41D13E9FA00F71760 /* somalitoes.mp3 in Resources */,
+				BB50F8231D13E9E200F71760 /* bengalinumb.mp3 in Resources */,
+				BB50F8ED1D13E9FA00F71760 /* somaliplaster.mp3 in Resources */,
+				BB50F8931D13E9EE00F71760 /* polishtummy.mp3 in Resources */,
+				BB50F8801D13E9EE00F71760 /* polishknee.mp3 in Resources */,
+				BB50F8DE1D13E9FA00F71760 /* somaliheart.mp3 in Resources */,
+				BB50F86E1D13E9EE00F71760 /* polishdrowsy.mp3 in Resources */,
+				BB50F7B21D13E9D700F71760 /* arabichowyoufeel.mp3 in Resources */,
+				BB50F82E1D13E9E200F71760 /* bengalitoes.mp3 in Resources */,
+				BB50F9971D13EA1A00F71760 /* welshchest.mp3 in Resources */,
+				BB50F9B21D13EA1A00F71760 /* welshneck.mp3 in Resources */,
+				BB50F9511D13EA0D00F71760 /* urdupinsneedles.mp3 in Resources */,
+				BB50F92A1D13EA0D00F71760 /* urduache.mp3 in Resources */,
+				BB50F88B1D13E9EE00F71760 /* polishribs.mp3 in Resources */,
+				BB50F7FE1D13E9E200F71760 /* bengaliache.mp3 in Resources */,
+				BB50F8201D13E9E200F71760 /* bengalineck.mp3 in Resources */,
+				BB50F8F21D13E9FA00F71760 /* somalithigh.mp3 in Resources */,
+				BB50F88E1D13E9EE00F71760 /* polishsick.mp3 in Resources */,
+				BB50F94C1D13EA0D00F71760 /* urduneck.mp3 in Resources */,
+				BB50F79D1D13E9D700F71760 /* arabiccannotfeel.mp3 in Resources */,
+				BB50F7B41D13E9D700F71760 /* arabicitchy.mp3 in Resources */,
+				BB50F9B91D13EA1A00F71760 /* welshribs.mp3 in Resources */,
+				BB50F7AE1D13E9D700F71760 /* arabichand.mp3 in Resources */,
+				BB50F8181D13E9E200F71760 /* bengalihowyoufeel.mp3 in Resources */,
+				BB50F93D1D13EA0D00F71760 /* urdugirlsprivates.mp3 in Resources */,
+				BB50F8E41D13E9FA00F71760 /* somalilanguage.mp3 in Resources */,
+				BB50F9AA1D13EA1A00F71760 /* welshhowyoufeel.mp3 in Resources */,
+				BB50F95B1D13EA0D00F71760 /* urdutummy.mp3 in Resources */,
+				BB50F8091D13E9E200F71760 /* bengalidrowsy.mp3 in Resources */,
+				BB50F8851D13E9EE00F71760 /* polishneck.mp3 in Resources */,
+				BB50F7C71D13E9D700F71760 /* arabictingling.mp3 in Resources */,
+				BB50F8171D13E9E200F71760 /* bengalihot.mp3 in Resources */,
+				BB50F9951D13EA1A00F71760 /* welshbreast.mp3 in Resources */,
+				BB50F8D51D13E9FA00F71760 /* somalieyes.mp3 in Resources */,
+				BB50F82B1D13E9E200F71760 /* bengalitesticles.mp3 in Resources */,
+				BB50F92D1D13EA0D00F71760 /* urdubottom.mp3 in Resources */,
+				BB50F7B81D13E9D700F71760 /* arabiclowerleg.mp3 in Resources */,
+				BB50F9A81D13EA1A00F71760 /* welshheart.mp3 in Resources */,
+				BB50F8D41D13E9FA00F71760 /* somalieyeproblems.mp3 in Resources */,
+				BB50F8771D13E9EE00F71760 /* polishgreeting.mp3 in Resources */,
+				BB50F9481D13EA0D00F71760 /* urdulanguage.mp3 in Resources */,
+				BB50F9B11D13EA1A00F71760 /* welshmouth.mp3 in Resources */,
+				BB50F9BD1D13EA1A00F71760 /* welshtesticles.mp3 in Resources */,
+				BB50F7A21D13E9D700F71760 /* arabicdrowsy.mp3 in Resources */,
+				BB50F7971D13E9D700F71760 /* arabicache.mp3 in Resources */,
+				BB50F8831D13E9EE00F71760 /* polishlowerleg.mp3 in Resources */,
+				BB50F87C1D13E9EE00F71760 /* polishhot.mp3 in Resources */,
+				BB50F7991D13E9D700F71760 /* arabicbadtaste.mp3 in Resources */,
+				BB50F80D1D13E9E200F71760 /* bengalieyes.mp3 in Resources */,
+				BB50F8241D13E9E200F71760 /* bengalipenis.mp3 in Resources */,
+				BB50F79A1D13E9D700F71760 /* arabicbottom.mp3 in Resources */,
+				BB50F7B71D13E9D700F71760 /* arabiclowerarm.mp3 in Resources */,
+				BB50F94B1D13EA0D00F71760 /* urdumouth.mp3 in Resources */,
+				BB50F8071D13E9E200F71760 /* bengalicramps.mp3 in Resources */,
+				BB50F8E31D13E9FA00F71760 /* somaliknee.mp3 in Resources */,
+				BB50F8011D13E9E200F71760 /* bengalibottom.mp3 in Resources */,
+				BB50F87B1D13E9EE00F71760 /* polishheart.mp3 in Resources */,
+				BB50F80A1D13E9E200F71760 /* bengaliear.mp3 in Resources */,
+				BB50F9A01D13EA1A00F71760 /* welshfaint.mp3 in Resources */,
+				BB50F9C21D13EA1A00F71760 /* welshyes.mp3 in Resources */,
+				BB50F7AD1D13E9D700F71760 /* arabicgroin.mp3 in Resources */,
+				BB50F81C1D13E9E200F71760 /* bengalilanguage.mp3 in Resources */,
+				BB50F7C91D13E9D700F71760 /* arabictummy.mp3 in Resources */,
+				BB50F7981D13E9D700F71760 /* arabicback.mp3 in Resources */,
+				BB50F8EC1D13E9FA00F71760 /* somalipenis.mp3 in Resources */,
+				BB50F94F1D13EA0D00F71760 /* urdunumb.mp3 in Resources */,
+				BB50F9C01D13EA1A00F71760 /* welshtoes.mp3 in Resources */,
+				BB50F95A1D13EA0D00F71760 /* urdutoes.mp3 in Resources */,
+				BB50F9591D13EA0D00F71760 /* urdutingling.mp3 in Resources */,
+				BB50F8141D13E9E200F71760 /* bengalihand.mp3 in Resources */,
+				BB50F9901D13EA1A00F71760 /* welshache.mp3 in Resources */,
+				BB50F8161D13E9E200F71760 /* bengaliheart.mp3 in Resources */,
+				BB50F9551D13EA0D00F71760 /* urdushowmewhere.mp3 in Resources */,
+				BB50F9471D13EA0D00F71760 /* urduknee.mp3 in Resources */,
+				BB50F7B61D13E9D700F71760 /* arabiclanguage.mp3 in Resources */,
+				BB50F8CE1D13E9FA00F71760 /* somalicold.mp3 in Resources */,
+				BB50F9BC1D13EA1A00F71760 /* welshsick.mp3 in Resources */,
+				BB50F8D01D13E9FA00F71760 /* somalidizzy.mp3 in Resources */,
+				BB50F82F1D13E9E200F71760 /* bengalitummy.mp3 in Resources */,
+				BB50F9AB1D13EA1A00F71760 /* welshinpain.mp3 in Resources */,
+				BB50F9431D13EA0D00F71760 /* urduhot.mp3 in Resources */,
+				BB50F8821D13E9EE00F71760 /* polishlowerarm.mp3 in Resources */,
+				BB50F9B41D13EA1A00F71760 /* welshnose.mp3 in Resources */,
+				BB50F8211D13E9E200F71760 /* bengalino.mp3 in Resources */,
+				BB50F9491D13EA0D00F71760 /* urdulowerarm.mp3 in Resources */,
+				BB50F9A41D13EA1A00F71760 /* welshgreeting.mp3 in Resources */,
+				BB50F8CD1D13E9FA00F71760 /* somalichest.mp3 in Resources */,
+				BB50F9911D13EA1A00F71760 /* welshback.mp3 in Resources */,
+				BB50F7A01D13E9D700F71760 /* arabiccramps.mp3 in Resources */,
+				BB50F9361D13EA0D00F71760 /* urduear.mp3 in Resources */,
+				BB50F9561D13EA0D00F71760 /* urdusick.mp3 in Resources */,
+				BB50F8CA1D13E9FA00F71760 /* somaliboysprivates.mp3 in Resources */,
+				BB50F81E1D13E9E200F71760 /* bengalilowerleg.mp3 in Resources */,
+				BB50F8C81D13E9FA00F71760 /* somalibadtaste.mp3 in Resources */,
+				BB50F8941D13E9EE00F71760 /* polishyes.mp3 in Resources */,
+				BB50F8DA1D13E9FA00F71760 /* somaligreeting.mp3 in Resources */,
+				BB50F8691D13E9EE00F71760 /* polishcannotfeel.mp3 in Resources */,
+				BB50F7A51D13E9D700F71760 /* arabiceyeproblems.mp3 in Resources */,
+				BB50F8741D13E9EE00F71760 /* polishfemalegenitals.mp3 in Resources */,
+				BB50F9BF1D13EA1A00F71760 /* welshtingling.mp3 in Resources */,
+				BB50F7AB1D13E9D700F71760 /* arabicgirlsprivates.mp3 in Resources */,
+				BB50F9BE1D13EA1A00F71760 /* welshthigh.mp3 in Resources */,
+				BB50F8891D13E9EE00F71760 /* polishpenis.mp3 in Resources */,
+				BB50F82A1D13E9E200F71760 /* bengalisick.mp3 in Resources */,
+				BB50F8791D13E9EE00F71760 /* polishhand.mp3 in Resources */,
+				BB50F8CB1D13E9FA00F71760 /* somalibreast.mp3 in Resources */,
+				BB50F9931D13EA1A00F71760 /* welshbottom.mp3 in Resources */,
+				BB50F9371D13EA0D00F71760 /* urduelbow.mp3 in Resources */,
+				BB50F7B11D13E9D700F71760 /* arabichot.mp3 in Resources */,
+				BB50F8EF1D13E9FA00F71760 /* somalishoulder.mp3 in Resources */,
+				BB50F81D1D13E9E200F71760 /* bengalilowerarm.mp3 in Resources */,
+				BB50F7CA1D13E9D700F71760 /* arabicyes.mp3 in Resources */,
+				BB50F8291D13E9E200F71760 /* bengalishowmewhere.mp3 in Resources */,
+				BB50F8671D13E9EE00F71760 /* polishboysprivates.mp3 in Resources */,
+				BB50F7C41D13E9D700F71760 /* arabicsick.mp3 in Resources */,
+				BB50F7BD1D13E9D700F71760 /* arabicnumb.mp3 in Resources */,
+				BB50F94D1D13EA0D00F71760 /* urduno.mp3 in Resources */,
+				BB50F9981D13EA1A00F71760 /* welshcold.mp3 in Resources */,
+				BB50F8781D13E9EE00F71760 /* polishgroin.mp3 in Resources */,
+				BB50F7A41D13E9D700F71760 /* arabicelbow.mp3 in Resources */,
+				BB50F9501D13EA0D00F71760 /* urdupenis.mp3 in Resources */,
+				BB50F9441D13EA0D00F71760 /* urduhowyoufeel.mp3 in Resources */,
+				BB50F9A11D13EA1A00F71760 /* welshfemalegenitals.mp3 in Resources */,
+				BB50F81A1D13E9E200F71760 /* bengaliitchy.mp3 in Resources */,
+				BB50F9411D13EA0D00F71760 /* urduhead.mp3 in Resources */,
+				BB50F8881D13E9EE00F71760 /* polishnumb.mp3 in Resources */,
+				BB50F8111D13E9E200F71760 /* bengaligirlsprivates.mp3 in Resources */,
+				BB50F9AF1D13EA1A00F71760 /* welshlowerarm.mp3 in Resources */,
+				BB50F9331D13EA0D00F71760 /* urducramps.mp3 in Resources */,
+				BB50F7BF1D13E9D700F71760 /* arabicpinsneedles.mp3 in Resources */,
+				BB50F9B31D13EA1A00F71760 /* welshno.mp3 in Resources */,
+				BB50F8F31D13E9FA00F71760 /* somalitingling.mp3 in Resources */,
+				BB50F92B1D13EA0D00F71760 /* urduback.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* SMW_ChildTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* SMW_Child */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMW_ChildTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMW_Child.app/SMW_Child";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMW_ChildTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMW_Child.app/SMW_Child";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = SMW_Child/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.uk.cardiff.SMW-child";
+				PRODUCT_NAME = SMW_Child;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = SMW_Child/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.uk.cardiff.SMW-child";
+				PRODUCT_NAME = SMW_Child;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SMW_ChildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SMW_Child" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SMW_Child" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

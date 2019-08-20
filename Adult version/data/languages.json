@@ -1,0 +1,8 @@
+{
+  "arabic": {"name": "Arabic (العربية)", "english": "Arabic", "translation": "العربية", "id": "arabic", "shading": false},
+  "bengali": {"name" : "Bengali (বাংলা)", "english": "Bengali", "translation": "বাংলা", "id": "bengali", "shading": true},
+  "polish": {"name": "Polish (Polski)", "english": "Polish", "translation": "Polski", "id": "polish", "shading": false},
+  "somali": {"name": "Somali (Af-Soomaali)", "english": "Somali", "translation": "Af-Soomaali", "id": "somali", "shading": true},
+  "urdu": {"name": "Urdu (اردو)", "english": "Urdu", "translation": "اردو", "id": "urdu", "shading": false},
+  "welsh": {"name": "Welsh (Cymraeg)", "english": "Welsh", "translation": "Cymraeg", "id": "welsh", "shading": true},
+}

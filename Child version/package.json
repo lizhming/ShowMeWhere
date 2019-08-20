@@ -1,0 +1,18 @@
+{
+  "name": "SMW_Child",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-native": "^0.8.0",
+    "react-native-device": "^1.0.1",
+    "react-native-page-control": "^1.0.6",
+    "react-native-sound": "^0.7.3",
+    "react-native-swiper": "^1.4.3",
+    "react-native-viewpager": "^0.2.1",
+    "rn-sound": "^0.8.1"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "greeting": {
+    "english": "Hello, my name is MYNAME.",
+    "welsh": "Helô fy enw i ydy MYNAME.",
+    "arabic": "MYNAME مرحبا اسمي",
+    "bengali": "হ্যালো, আমার নাম হল MYNAME",
+    "polish": "Cześć, nazywam się MYNAME.",
+    "somali": "Iska waran magacaygu waa MYNAME.",
+    "urdu": "جناب میرا نام MYNAME ہے"
+  },
+  "inPain": {
+    "english": "Are you in pain?",
+    "welsh": "Ydych chi mewn poen?",
+    "arabic": "هل أنت متألم؟",
+    "bengali": "আপনার কি ব্যাথা হচেছ?",
+    "polish": "Czy coś Cię boli?",
+    "somali": "Ma xanuunsantahay?",
+    "urdu": "کیا آپ تکلیف میں ہیں؟"
+  },
+  "howYouFeel": {
+    "english": "How do you feel?",
+    "welsh": "Sut ydych chi'n teimlo?",
+    "arabic": "بماذا تشعر؟",
+    "bengali": "আপনি কেমন বোধ করছেন?",
+    "polish": "Jak się czujesz?",
+    "somali": "Sidee dareemaysaa?",
+    "urdu": "آپ کو کیسا مہسوس ہو رہا ہے"
+  },
+  "where": {
+    "english": "Show me where?",
+    "welsh": "Dangoswch lle",
+    "arabic": "أرني أين",
+    "bengali": "আমাকে দেখান কোথায়",
+    "polish": "Pokaż mi, gdzie",
+    "somali": "Itus halkee",
+    "urdu": "مجھے دکھایں کدہر"
+  },
+  "alerts": {
+    "remove": "Remove item",
+    "restartTitle": "Restart?",
+    "restartText": "Are you sure you want to restart the 'Show me where?' application?"
+  },
+  "yes": {
+    "english": "Yes",
+    "welsh": "Ydw",
+    "arabic": "نعم",
+    "bengali": "হ্যাঁ",
+    "polish": "Tak",
+    "somali": "Haye",
+    "urdu": "جی"
+  },
+  "no": {
+    "english": "No",
+    "welsh": "Nac ydw",
+    "arabic": "لا",
+    "bengali": "না",
+    "polish": "Nie",
+    "somali": "Maya",
+    "urdu": "نہیں"
+  },
+  "pain": {
+    "english": "Pain",
+    "welsh": "Poen",
+    "arabic": "الم",
+    "bengali": "ব্যথা",
+    "polish": "Ból",
+    "somali": "Xanuun",
+    "urdu": "درد"
+  }
+}
